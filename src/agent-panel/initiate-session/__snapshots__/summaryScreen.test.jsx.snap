@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[CreateSession]: PeopleScreen renders 1`] = `
+<div>
+  <div
+    class="SummaryC-view-18"
+  >
+    <header
+      class="MuiPaper-root-41 MuiPaper-elevation0-43 MuiAppBar-root-32 Navbar-root-21 MuiAppBar-positionFixed-33 MuiAppBar-colorPrimary-39 mui-fixed"
+    >
+      <button
+        class="MuiButtonBase-root-94 MuiButton-root-68 MuiButton-text-70 MuiButton-flat-73 Navbar-back-24"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-69"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-97"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root-106"
+        />
+      </button>
+      <h1
+        class="Navbar-title-30"
+      >
+        Your Summary
+      </h1>
+      <button
+        class="MuiButtonBase-root-94 MuiButton-root-68 MuiButton-contained-79 MuiButton-containedPrimary-80 ButtonC-primary-114 MuiButton-raised-82 MuiButton-raisedPrimary-83 ButtonC-button-113 Navbar-continue-23"
+        data-testid=""
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-69"
+        >
+          <svg
+            class="Navbar-send-31"
+            fill="none"
+            height="15"
+            viewBox="0 0 15 15"
+            width="15"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M.164 4.811c-.359.667-.11 1.5.558 1.858l4.742 2.554 2.553 4.742a1.372 1.372 0 0 0 2.506-.206l4.09-11.942A1.372 1.372 0 0 0 12.87.074L.928 4.164c-.327.111-.6.343-.764.647zm5.682 3.06l5.993-5.994L1.372 5.461l4.474 2.41zm6.963-5.023L6.816 8.84l2.41 4.474 3.583-10.467z"
+              fill="#fff"
+              fill-rule="evenodd"
+            />
+          </svg>
+          Send
+        </span>
+      </button>
+    </header>
+    <div
+      class="SummaryC-summaryBody-1"
+    >
+      <div
+        class="MuiPaper-root-41 MuiPaper-elevation1-44 MuiPaper-rounded-42 MuiCard-root-117 SummaryC-card-3"
+      >
+        <div
+          class="SummaryC-summaryTitle-2"
+        >
+          Documents To Sign
+        </div>
+        <div
+          class="SummaryC-document-9"
+        >
+          <svg
+            class="SummaryC-docIcon-10"
+            fill="none"
+            height="16"
+            viewBox="0 0 13 16"
+            width="13"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M7.502.056a.724.724 0 0 1 .275.203l4.964 4.964A.725.725 0 0 1 13 5.77V13a2.889 2.889 0 0 1-2.889 2.889H2.89A2.889 2.889 0 0 1 0 13V2.889A2.889 2.889 0 0 1 2.889 0H7.23c.09-.001.18.016.27.056zm.442 2.406v1.871c0 .4.324.723.723.723h1.871L7.944 2.462zm-6.5.427c0-.798.647-1.445 1.445-1.445H6.5v2.89C6.5 5.53 7.47 6.5 8.667 6.5h2.889V13c0 .798-.647 1.444-1.445 1.444H2.89A1.444 1.444 0 0 1 1.444 13V2.889z"
+              fill="#A2A9B4"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <div
+            class="SummaryC-docTitle-11"
+            title="Doc 1"
+          >
+            Doc 1
+          </div>
+        </div>
+        <div
+          class="SummaryC-document-9"
+        >
+          <svg
+            class="SummaryC-docIcon-10"
+            fill="none"
+            height="16"
+            viewBox="0 0 13 16"
+            width="13"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M7.502.056a.724.724 0 0 1 .275.203l4.964 4.964A.725.725 0 0 1 13 5.77V13a2.889 2.889 0 0 1-2.889 2.889H2.89A2.889 2.889 0 0 1 0 13V2.889A2.889 2.889 0 0 1 2.889 0H7.23c.09-.001.18.016.27.056zm.442 2.406v1.871c0 .4.324.723.723.723h1.871L7.944 2.462zm-6.5.427c0-.798.647-1.445 1.445-1.445H6.5v2.89C6.5 5.53 7.47 6.5 8.667 6.5h2.889V13c0 .798-.647 1.444-1.445 1.444H2.89A1.444 1.444 0 0 1 1.444 13V2.889z"
+              fill="#A2A9B4"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <div
+            class="SummaryC-docTitle-11"
+            title="Doc 1 but better"
+          >
+            Doc 1 but better
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root-41 MuiPaper-elevation1-44 MuiPaper-rounded-42 MuiCard-root-117 SummaryC-card-3"
+      >
+        <div
+          class="SummaryC-summaryTitle-2"
+        >
+          Signees
+        </div>
+        <div
+          class="SummaryC-signee-4"
+        >
+          <svg
+            class="SummaryC-avatarIcon-5"
+            fill="none"
+            height="15"
+            viewBox="0 0 14 15"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M2.8 4.2a4.2 4.2 0 1 0 8.4 0 4.2 4.2 0 0 0-8.4 0zm7 0a2.8 2.8 0 1 1-5.6 0 2.8 2.8 0 0 1 5.6 0zM0 13.3v-1.4a2.8 2.8 0 0 1 2.8-2.8h8.4a2.8 2.8 0 0 1 2.8 2.8v1.4a1.4 1.4 0 0 1-1.4 1.4H1.4A1.4 1.4 0 0 1 0 13.3zm12.6-1.4v1.4H1.4v-1.4a1.4 1.4 0 0 1 1.4-1.4h8.4a1.4 1.4 0 0 1 1.4 1.4z"
+              fill="#A2A9B4"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <div
+            class="SummaryC-signeeDetails-6"
+          >
+            <div
+              class="SummaryC-signeeName-7"
+            >
+              Session Signee 1
+            </div>
+            <div
+              class="SummaryC-signeeEmail-8"
+            >
+              test@dealtap.ca
+            </div>
+          </div>
+        </div>
+        <div
+          class="SummaryC-signee-4"
+        >
+          <svg
+            class="SummaryC-avatarIcon-5"
+            fill="none"
+            height="15"
+            viewBox="0 0 14 15"
+            width="14"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M2.8 4.2a4.2 4.2 0 1 0 8.4 0 4.2 4.2 0 0 0-8.4 0zm7 0a2.8 2.8 0 1 1-5.6 0 2.8 2.8 0 0 1 5.6 0zM0 13.3v-1.4a2.8 2.8 0 0 1 2.8-2.8h8.4a2.8 2.8 0 0 1 2.8 2.8v1.4a1.4 1.4 0 0 1-1.4 1.4H1.4A1.4 1.4 0 0 1 0 13.3zm12.6-1.4v1.4H1.4v-1.4a1.4 1.4 0 0 1 1.4-1.4h8.4a1.4 1.4 0 0 1 1.4 1.4z"
+              fill="#A2A9B4"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <div
+            class="SummaryC-signeeDetails-6"
+          >
+            <div
+              class="SummaryC-signeeName-7"
+            >
+              Session Signee 2
+            </div>
+            <div
+              class="SummaryC-signeeEmail-8"
+            >
+              aminur@dealtap.ca
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiPaper-root-41 MuiPaper-elevation1-44 MuiPaper-rounded-42 MuiCard-root-117 SummaryC-card-3"
+      >
+        <div
+          class="SummaryC-summaryTitle-2"
+        >
+          Email Customization
+        </div>
+        <form
+          class="SummaryC-formContainer-12"
+        >
+          <div
+            class="SummaryC-formTitle-13"
+          >
+            Subject (Required)
+          </div>
+          <div
+            class="MuiFormControl-root-125 SummaryC-titleInput-14"
+          >
+            <div
+              class="MuiInputBase-root-142 MuiInput-root-129 MuiInput-underline-133 MuiInputBase-formControl-143 MuiInput-formControl-130"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input-152 MuiInput-input-137"
+                maxlength="100"
+                name="emailTitle"
+                type="text"
+                value="Please Sign These Documents"
+              />
+            </div>
+          </div>
+          <div
+            class="SummaryC-characterCount-17"
+          >
+            27 out of 100 characters used
+          </div>
+          <div
+            class="SummaryC-formTitle-13"
+          >
+            Content
+          </div>
+          <div
+            class="MuiFormControl-root-125 MuiFormControl-marginNormal-126 SummaryC-bodyInput-15"
+          >
+            <div
+              class="MuiInputBase-root-142 MuiOutlinedInput-root-159 MuiInputBase-formControl-143 MuiInputBase-multiline-150 MuiOutlinedInput-multiline-165"
+            >
+              <fieldset
+                aria-hidden="true"
+                class="MuiNotchedOutline-root-172 MuiOutlinedInput-notchedOutline-166"
+                style="padding-left: 8px;"
+              >
+                <legend
+                  class="MuiNotchedOutline-legend-173"
+                  style="width: 0.01px;"
+                />
+              </fieldset>
+              <textarea
+                aria-invalid="false"
+                class="MuiInputBase-input-152 MuiOutlinedInput-input-167 MuiInputBase-inputMultiline-154 MuiOutlinedInput-inputMultiline-169"
+                id="standard-multiline-flexible"
+                maxlength="10000"
+                placeholder="Your message goes here."
+                rows="4"
+              />
+            </div>
+          </div>
+          <div
+            class="SummaryC-characterCount-17"
+          >
+            0 out of 10,000 characters used
+          </div>
+          <label
+            class="MuiFormLabel-root-177"
+          >
+            
+          </label>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;

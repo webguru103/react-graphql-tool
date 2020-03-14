@@ -1,0 +1,46 @@
+[
+  {
+    "id": "cannot-update",
+    "defaultMessage": "Cannot update {resource}"
+  },
+  {
+    "id": "invalid-data",
+    "defaultMessage": "Wrong value"
+  },
+  {
+    "id": "too-short",
+    "defaultMessage": "{resource} is too short"
+  },
+  {
+    "id": "is-empty",
+    "defaultMessage": "{resource} is empty"
+  },
+  {
+    "id": "not-unique",
+    "defaultMessage": "{resource} already exists"
+  },
+  {
+    "id": "already-admin",
+    "defaultMessage": "{resource} already has admin account"
+  },
+  {
+    "id": "already-exists-on",
+    "defaultMessage": "{model} already exists on {target}"
+  },
+  {
+    "id": "already-exists-on-brokerage",
+    "defaultMessage": "{resource} already belongs to a brokerage"
+  },
+  {
+    "id": "password-invalid",
+    "defaultMessage": "Password is invalid"
+  },
+  {
+    "id": "generic-error",
+    "defaultMessage": "Some error occurred"
+  },
+  {
+    "id": "network-error",
+    "defaultMessage": "Sorry, there was a network error."
+  }
+]

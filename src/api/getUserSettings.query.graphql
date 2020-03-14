@@ -1,0 +1,8 @@
+query GetUserSettings @client {
+  currentLanguage {
+    language
+  }
+  currentTheme {
+    theme
+  }
+}

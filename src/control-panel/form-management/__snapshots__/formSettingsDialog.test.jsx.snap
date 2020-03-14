@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Settings Dialog renders 1`] = `
+<div>
+  <form>
+    <div
+      class="MuiDialogTitle-root-7 DialogCreatorInjector-dialogTitle-2"
+    >
+      <span>
+        Form Settings
+      </span>
+      <button
+        class="MuiButtonBase-root-14 MuiIconButton-root-8 DialogCreatorInjector-dialogClose-6"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label-13"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-17"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+    <div
+      class="MuiDialogContent-root-26 DialogCreatorInjector-dialogContent-3"
+    >
+      <div>
+        <div
+          class="MuiFormControl-root-27 MuiFormControl-fullWidth-30"
+        >
+          <div
+            class="MuiFormControl-root-27 MuiFormControl-marginNormal-28 MuiFormControl-fullWidth-30"
+          >
+            <label
+              class="MuiFormLabel-root-38 MuiFormLabel-filled-42 MuiInputLabel-root-31 MuiInputLabel-formControl-32 MuiInputLabel-animated-35 MuiInputLabel-shrink-34"
+              data-shrink="true"
+              for="form-name"
+            >
+              Form Name
+            </label>
+            <div
+              class="MuiInputBase-root-58 MuiInput-root-45 MuiInput-underline-49 MuiInputBase-fullWidth-67 MuiInput-fullWidth-52 MuiInputBase-formControl-59 MuiInput-formControl-46"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input-68 MuiInput-input-53"
+                id="form-name"
+                name="formName"
+                type="text"
+                value="mockForm"
+              />
+            </div>
+          </div>
+          <p
+            class="MuiFormHelperText-root-75"
+            id="component-error-text"
+          />
+        </div>
+        <div
+          class="MuiInputBase-root-58 MuiOutlinedInput-root-90 MuiInputBase-fullWidth-67"
+        >
+          <fieldset
+            aria-hidden="true"
+            class="MuiNotchedOutline-root-103 MuiOutlinedInput-notchedOutline-97"
+            style="padding-left: 30.75px;"
+          >
+            <legend
+              class="MuiNotchedOutline-legend-104"
+              style="width: 0.01px;"
+            />
+          </fieldset>
+          <div
+            class="MuiSelect-root-83"
+          >
+            <div
+              aria-haspopup="true"
+              aria-pressed="false"
+              class="MuiSelect-select-84 MuiSelect-selectMenu-87 MuiInputBase-input-68 MuiOutlinedInput-input-98"
+              role="button"
+              tabindex="0"
+            >
+              <span>
+                ​
+              </span>
+            </div>
+            <input
+              id="outlined-age-simple"
+              name="formGroupId"
+              type="hidden"
+              value="3"
+            />
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root-17 MuiSelect-icon-89"
+              focusable="false"
+              role="presentation"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M7 10l5 5 5-5z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          aria-label="formStatus"
+          class="MuiFormGroup-root-112"
+          role="radiogroup"
+        >
+          <label
+            class="MuiFormControlLabel-root-114"
+          >
+            <span
+              class="MuiButtonBase-root-14 MuiIconButton-root-8 MuiSwitchBase-root-123 MuiRadio-root-118 MuiRadio-colorSecondary-122 MuiSwitchBase-checked-124 MuiRadio-checked-119"
+            >
+              <span
+                class="MuiIconButton-label-13"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-17"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  />
+                </svg>
+                <input
+                  checked=""
+                  class="MuiSwitchBase-input-126"
+                  name="formStatus"
+                  type="radio"
+                  value="ACTIVE"
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root-127"
+              />
+            </span>
+            <span
+              class="MuiTypography-root-134 MuiTypography-body1-143 MuiFormControlLabel-label-117"
+            >
+              <span>
+                Active
+              </span>
+            </span>
+          </label>
+          <label
+            class="MuiFormControlLabel-root-114"
+          >
+            <span
+              class="MuiButtonBase-root-14 MuiIconButton-root-8 MuiSwitchBase-root-123 MuiRadio-root-118 MuiRadio-colorSecondary-122"
+            >
+              <span
+                class="MuiIconButton-label-13"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-17"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  />
+                </svg>
+                <input
+                  class="MuiSwitchBase-input-126"
+                  name="formStatus"
+                  type="radio"
+                  value="INACTIVE"
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root-127"
+              />
+            </span>
+            <span
+              class="MuiTypography-root-134 MuiTypography-body1-143 MuiFormControlLabel-label-117"
+            >
+              <span>
+                Inactive
+              </span>
+            </span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiDialogActions-root-160 DialogCreatorInjector-dialogActions-4"
+    >
+      <button
+        class="MuiButtonBase-root-14 MuiButton-root-166 MuiButton-contained-177 MuiButton-containedSecondary-179 ButtonC-secondary-164 MuiButton-raised-180 MuiButton-raisedSecondary-182 ButtonC-button-162"
+        data-testid="close-dialog-button-bottom"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-167"
+        >
+          Cancel
+        </span>
+      </button>
+      <button
+        class="MuiButtonBase-root-14 MuiButton-root-166 MuiButton-contained-177 MuiButton-containedPrimary-178 ButtonC-primary-163 MuiButton-raised-180 MuiButton-raisedPrimary-181 ButtonC-button-162"
+        data-testid="action-dialog-button-bottom"
+        tabindex="0"
+        type="submit"
+      >
+        <span
+          class="MuiButton-label-167"
+        >
+          Update
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

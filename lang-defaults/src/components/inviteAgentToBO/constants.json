@@ -1,0 +1,30 @@
+[
+  {
+    "id": "network-error",
+    "defaultMessage": "Something went wrong, try again later"
+  },
+  {
+    "id": "no-emails",
+    "defaultMessage": "Please input an email"
+  },
+  {
+    "id": "no-brokerage",
+    "defaultMessage": "Please select brokerage"
+  },
+  {
+    "id": "invalid-emails",
+    "defaultMessage": "Please input valid emails separated with comma or return"
+  },
+  {
+    "id": "request-error",
+    "defaultMessage": "Sorry, there was an error processing your request!"
+  },
+  {
+    "id": "successfuly-sent-invites",
+    "defaultMessage": "Successfuly sent {amount} invite(s)"
+  },
+  {
+    "id": "couldnot-send-invite",
+    "defaultMessage": "Could not send invite to the following agents:"
+  }
+]

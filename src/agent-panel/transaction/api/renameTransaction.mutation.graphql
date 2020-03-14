@@ -1,0 +1,8 @@
+mutation RenameTransaction($id: ID!, $transaction: TransactionInput!) {
+  renameTransaction: updateTransaction(id: $id, transaction: $transaction) {
+    id
+    name
+    createdAt
+    updatedAt
+  }
+}

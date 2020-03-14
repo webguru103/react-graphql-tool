@@ -1,0 +1,10 @@
+[
+  {
+    "id": "request-error",
+    "defaultMessage": "Sorry, there was an error processing your request!"
+  },
+  {
+    "id": "success-invite",
+    "defaultMessage": "The admin has been successfully invited"
+  }
+]

@@ -1,0 +1,8 @@
+mutation AddTransaction($transaction: TransactionInput!, $revisionIds: [ID]!) {
+  addTransaction: createTransaction(transaction: $transaction, revisionIds: $revisionIds) {
+    id
+    name
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "data-table-rows",
+    "defaultMessage": "Rows"
+  },
+  {
+    "id": "data-table-of",
+    "defaultMessage": "of"
+  },
+  {
+    "id": "data-table-page",
+    "defaultMessage": "Page"
+  },
+  {
+    "id": "data-table-next",
+    "defaultMessage": "Next"
+  },
+  {
+    "id": "data-table-previous",
+    "defaultMessage": "Previous"
+  },
+  {
+    "id": "data-table-no-data",
+    "defaultMessage": "Nothing to display!"
+  }
+]

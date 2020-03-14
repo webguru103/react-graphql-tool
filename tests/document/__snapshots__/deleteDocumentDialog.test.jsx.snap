@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delete Document should render 1`] = `
+<WithStyles(DialogCreatorInjector)
+  actionButtonText="Continue"
+  content={
+    <div>
+      <div>
+        Are you sure you want to delete this document?
+      </div>
+      
+    </div>
+  }
+  onSubmit={[Function]}
+  title="Delete Item"
+/>
+`;

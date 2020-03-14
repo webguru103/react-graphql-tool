@@ -1,0 +1,5 @@
+mutation activateUser {
+  activateAccount {
+    id
+  }
+}

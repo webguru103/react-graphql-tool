@@ -1,0 +1,8 @@
+mutation PublishDraft($id: Int!) {
+  publishDraft(id: $id){
+    id
+    formName
+    formGroupId
+    formStatus
+  }
+}

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Initial Field renders 1`] = `
+<div>
+  <button
+    class=""
+    type="button"
+  >
+    <div>
+      <svg
+        height="20"
+        viewBox="0 0 20 20"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+      >
+        <defs>
+          <path
+            d="M14.302 1.139h-.23a.569.569 0 0 1 0-1.139h3.362a2.077 2.077 0 0 1 1.458 3.558c.61.44 1.027 1.117 1.027 1.898 0 1.29-1.173 2.355-2.485 2.355H14.87a.569.569 0 0 1-.568-.569V1.14zm-2.547 5.564l-.477-1.09a.571.571 0 0 1-.103.009h-3.04l-.028-.001-.467 1.07a.57.57 0 0 1-.141 1.12H6.227a.569.569 0 0 1 0-1.139h.18L9.173.342a.568.568 0 0 1 1.042 0l2.767 6.33h.227a.569.569 0 0 1 0 1.139h-1.271a.569.569 0 0 1-.184-1.108zm-3.15-2.22h2.18L9.695 1.99l-1.09 2.493zm-5.866.36L3.93 3.65a.568.568 0 1 1 .805.805l-1.19 1.192 1.19 1.192a.57.57 0 0 1-.804.805L2.74 6.452 1.548 7.644a.568.568 0 1 1-.805-.805l1.191-1.192-1.19-1.192a.57.57 0 0 1 .804-.805l1.19 1.192zM.57 11a.569.569 0 0 1 0-1.138H20.43a.569.569 0 0 1 0 1.138H.57zm16.865-4.327c.708 0 1.348-.581 1.348-1.217 0-.694-.75-1.3-1.546-1.3H15.44v2.517h1.995zm0-3.655a.939.939 0 0 0 0-1.88h-1.995v1.88h1.995z"
+            id="a"
+          />
+        </defs>
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          transform="translate(0 5)"
+        >
+          <mask
+            fill="#fff"
+            id="b"
+          >
+            <use
+              xlink:href="#a"
+            />
+          </mask>
+          <use
+            fill="currentColor"
+            fill-rule="nonzero"
+            xlink:href="#a"
+          />
+          <g
+            mask="url(#b)"
+          >
+            <path
+              d="M0-2h22v15H0z"
+            />
+          </g>
+        </g>
+      </svg>
+    </div>
+    <span>
+      Initial
+    </span>
+  </button>
+  <div
+    style="font-size: NaNpx;"
+  >
+    dealtap.ca/xxx-xxx
+  </div>
+</div>
+`;

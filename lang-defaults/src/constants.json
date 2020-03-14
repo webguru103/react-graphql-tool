@@ -1,0 +1,14 @@
+[
+  {
+    "id": "upload-label",
+    "defaultMessage": "Upload PDF"
+  },
+  {
+    "id": "drag-file-details",
+    "defaultMessage": "Drag & drop, or click this area to upload."
+  },
+  {
+    "id": "no-pdf-uploaded",
+    "defaultMessage": "Please upload the form base"
+  }
+]

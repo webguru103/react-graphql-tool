@@ -1,0 +1,31 @@
+query GetAgentUsersForAdmin($brokerageCondition: BrokerageAclCondition, $agentCondition: BrokerageAclCondition) {
+  agents: allBrokerageAcls(condition: $brokerageCondition) {
+    nodes {
+      id
+      brokerageByBrokerageId {
+        brokerageAclsByBrokerageId(condition: $agentCondition) {
+          totalCount
+          nodes {
+            id
+            userId
+            userByUserId {
+              lastName
+              firstName
+              email
+              phone
+              createdAt
+              loggedInAt
+            }
+            brokerageByBrokerageId {
+              id
+              brokerageName
+              unit
+              streetNumber
+              streetName
+            }
+          }
+        }
+      }
+    }
+  }
+}

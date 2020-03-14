@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContentC should render 1`] = `
+<Fragment>
+  <WithStyles(Paper)
+    classes={
+      Object {
+        "root": undefined,
+      }
+    }
+    elevation={0}
+  >
+    <span>
+      <FormattedMessage
+        defaultMessage="Name"
+        id="table-head-name"
+        values={Object {}}
+      />
+    </span>
+    <span>
+      <FormattedMessage
+        defaultMessage="Owner"
+        id="table-head-owner"
+        values={Object {}}
+      />
+    </span>
+    <span>
+      <FormattedMessage
+        defaultMessage="Last Modified"
+        id="table-head-last-modified"
+        values={Object {}}
+      />
+    </span>
+  </WithStyles(Paper)>
+  <WithStyles(Paper)
+    classes={
+      Object {
+        "root": undefined,
+      }
+    }
+    elevation={1}
+    key="id1"
+    onClick={[Function]}
+  >
+    <div>
+      <HomeIcon
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+      <span>
+        Example 1
+      </span>
+    </div>
+    <div>
+      <span>
+        -
+      </span>
+    </div>
+    <div
+      className="undefined undefined"
+    >
+      janvier 1er 2018, 12:00 AM
+      <WithStyles(IconButton)
+        onClick={[Function]}
+      >
+        <pure(MoreHorizIcon) />
+      </WithStyles(IconButton)>
+    </div>
+  </WithStyles(Paper)>
+  <WithStyles(Paper)
+    classes={
+      Object {
+        "root": undefined,
+      }
+    }
+    elevation={1}
+    key="id2"
+    onClick={[Function]}
+  >
+    <div>
+      <HomeIcon
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+      <span>
+        Example Deal 2
+      </span>
+    </div>
+    <div>
+      <span>
+        -
+      </span>
+    </div>
+    <div
+      className="undefined undefined"
+    >
+      janvier 1er 2018, 12:00 AM
+      <WithStyles(IconButton)
+        onClick={[Function]}
+      >
+        <pure(MoreHorizIcon) />
+      </WithStyles(IconButton)>
+    </div>
+  </WithStyles(Paper)>
+  <WithStyles(Paper)
+    classes={
+      Object {
+        "root": undefined,
+      }
+    }
+    elevation={1}
+    key="id3"
+    onClick={[Function]}
+  >
+    <div>
+      <HomeIcon
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+      <span>
+        Example 3
+      </span>
+    </div>
+    <div>
+      <span>
+        -
+      </span>
+    </div>
+    <div
+      className="undefined undefined"
+    >
+      janvier 1er 2018, 12:00 AM
+      <WithStyles(IconButton)
+        onClick={[Function]}
+      >
+        <pure(MoreHorizIcon) />
+      </WithStyles(IconButton)>
+    </div>
+  </WithStyles(Paper)>
+  <WithStyles(Paper)
+    classes={
+      Object {
+        "root": undefined,
+      }
+    }
+    elevation={1}
+    key="id4"
+    onClick={[Function]}
+  >
+    <div>
+      <HomeIcon
+        height="24"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+      <span>
+        Example 4
+      </span>
+    </div>
+    <div>
+      <span>
+        -
+      </span>
+    </div>
+    <div
+      className="undefined undefined"
+    >
+      janvier 1er 2018, 12:00 AM
+      <WithStyles(IconButton)
+        onClick={[Function]}
+      >
+        <pure(MoreHorizIcon) />
+      </WithStyles(IconButton)>
+    </div>
+  </WithStyles(Paper)>
+  <WithStyles(Menu)
+    anchorEl={null}
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Rename"
+        id="menu-rename"
+        values={Object {}}
+      />
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Copy"
+        id="menu-copy"
+        values={Object {}}
+      />
+    </WithStyles(MenuItem)>
+    <WithStyles(MenuItem)
+      onClick={[Function]}
+    >
+      <FormattedMessage
+        defaultMessage="Delete"
+        id="menu-delete"
+        values={Object {}}
+      />
+    </WithStyles(MenuItem)>
+  </WithStyles(Menu)>
+</Fragment>
+`;

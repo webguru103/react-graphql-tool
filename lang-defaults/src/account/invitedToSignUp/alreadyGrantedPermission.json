@@ -1,0 +1,6 @@
+[
+  {
+    "id": "already-granted-permission-message",
+    "defaultMessage": "It appears you have already been granted the admin permission of {brokerageName}. Please log in instead."
+  }
+]

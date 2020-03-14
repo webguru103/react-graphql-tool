@@ -1,0 +1,3 @@
+mutation updateLanguage($newLanguage: String!) {
+  updateLanguage(newLanguage: $newLanguage) @client
+}

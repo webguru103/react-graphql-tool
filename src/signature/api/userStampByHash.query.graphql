@@ -1,0 +1,18 @@
+query UserStampByHash($stampHash: String!) {
+  userStampByHash(stampHash: $stampHash){
+    id
+    stamp
+    stampHash
+    documentName
+    documentPage
+    signeeEmail
+    signeeName
+    userAgent
+    ipAddress
+    browserName
+    browserVersion
+    osName
+    osVersion
+    createdAt
+  }
+}

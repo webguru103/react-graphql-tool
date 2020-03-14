@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Invite New CP User renders 1`] = `
+<div>
+  <form>
+    <div
+      class="MuiDialogTitle-root-1"
+    >
+      Invite New Control Panel User
+    </div>
+    <div
+      class="MuiDialogContent-root-2"
+    >
+      <div
+        class="MuiFormControl-root-3 MuiFormControl-fullWidth-6"
+      >
+        <label
+          class="MuiFormLabel-root-14 MuiFormLabel-required-19 MuiInputLabel-root-7 MuiInputLabel-formControl-8 MuiInputLabel-animated-11"
+          data-shrink="false"
+          for="email"
+        >
+          Email
+          <span
+            class="MuiFormLabel-asterisk-20"
+          >
+             *
+          </span>
+        </label>
+        <div
+          class="MuiInputBase-root-34 MuiInput-root-21 MuiInputBase-fullWidth-43 MuiInput-fullWidth-28 MuiInputBase-formControl-35 MuiInput-formControl-22"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input-44 MuiInput-input-29"
+            id="email"
+            name="email"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <p
+        class="MuiFormHelperText-root-51"
+      />
+      <div>
+        <div
+          class="MuiFormControl-root-3 MuiFormControl-fullWidth-6"
+        >
+          <label
+            class="MuiFormLabel-root-14 MuiFormLabel-required-19 MuiInputLabel-root-7 MuiInputLabel-formControl-8 MuiInputLabel-animated-11"
+            data-shrink="false"
+            for="firstName"
+          >
+            First Name
+            <span
+              class="MuiFormLabel-asterisk-20"
+            >
+               *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root-34 MuiInput-root-21 MuiInputBase-fullWidth-43 MuiInput-fullWidth-28 MuiInputBase-formControl-35 MuiInput-formControl-22"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-44 MuiInput-input-29"
+              id="firstName"
+              name="firstName"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="MuiFormControl-root-3 MuiFormControl-fullWidth-6"
+        >
+          <label
+            class="MuiFormLabel-root-14 MuiFormLabel-required-19 MuiInputLabel-root-7 MuiInputLabel-formControl-8 MuiInputLabel-animated-11"
+            data-shrink="false"
+            for="lastName"
+          >
+            Last Name
+            <span
+              class="MuiFormLabel-asterisk-20"
+            >
+               *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root-34 MuiInput-root-21 MuiInputBase-fullWidth-43 MuiInput-fullWidth-28 MuiInputBase-formControl-35 MuiInput-formControl-22"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-44 MuiInput-input-29"
+              id="lastName"
+              name="lastName"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiDialogActions-root-59"
+    >
+      <button
+        class="MuiButtonBase-root-87 MuiButton-root-61 MuiButton-contained-72 MuiButton-raised-75 MuiDialogActions-action-60"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-62"
+        >
+          Cancel
+        </span>
+        <span
+          class="MuiTouchRipple-root-90"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root-87 MuiButton-root-61 MuiButton-contained-72 MuiButton-containedPrimary-73 MuiButton-raised-75 MuiButton-raisedPrimary-76 MuiDialogActions-action-60"
+        data-testid="submit-button"
+        tabindex="0"
+        type="submit"
+      >
+        <span
+          class="MuiButton-label-62"
+        >
+          Invite
+        </span>
+        <span
+          class="MuiTouchRipple-root-90"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

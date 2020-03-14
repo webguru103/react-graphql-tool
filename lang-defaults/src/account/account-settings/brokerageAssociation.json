@@ -1,0 +1,14 @@
+[
+  {
+    "id": "no-bo",
+    "defaultMessage": "You are currently not managed by any brokerage office in DealTap.\n                    If your brokerage office is also using DealTap, you can ask the managers to invite you to join them."
+  },
+  {
+    "id": "bo-invites",
+    "defaultMessage": "You have an invite to join a brokerage office.\n                    If you accept the invitation, the brokerage office will manage your account."
+  },
+  {
+    "id": "bo",
+    "defaultMessage": "You are under the direct management of this brokerage office."
+  }
+]

@@ -1,0 +1,13 @@
+query GetBrokeragesAgentCountForAdmin($brokerageAclCondition: BrokerageAclCondition, $agentAclCondition: BrokerageAclCondition){
+  agentCount: allBrokerageAcls(condition: $brokerageAclCondition) {
+    nodes {
+      userId
+      brokerageByBrokerageId {
+        id
+        brokerageAclsByBrokerageId(condition: $agentAclCondition) {
+          totalCount
+        }
+      }
+    }
+  }
+}

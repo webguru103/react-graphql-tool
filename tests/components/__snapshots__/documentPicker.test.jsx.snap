@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Document Picker renders 1`] = `
+<WithStyles(Paper)
+  elevation={0}
+>
+  <div>
+    <WithStyles(Typography)
+      variant="title"
+    >
+      Select Forms
+    </WithStyles(Typography)>
+  </div>
+  <WithStyles(Input)
+    disableUnderline={true}
+    label="Filter"
+    onChange={[Function]}
+    placeholder="Filter"
+    value=""
+  />
+  <FormikConnect(FieldArrayInner)
+    name="formPick"
+    render={[Function]}
+  />
+</WithStyles(Paper)>
+`;

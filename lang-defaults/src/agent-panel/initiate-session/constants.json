@@ -1,0 +1,70 @@
+[
+  {
+    "id": "full-name-required",
+    "defaultMessage": "Please enter full name"
+  },
+  {
+    "id": "email-required",
+    "defaultMessage": "Please enter email"
+  },
+  {
+    "id": "email-wrong",
+    "defaultMessage": "Email is not valid"
+  },
+  {
+    "id": "at-least-one-signee",
+    "defaultMessage": "Please add at least one signee"
+  },
+  {
+    "id": "full-name-not-valid",
+    "defaultMessage": "Full name must consist of two or more words"
+  },
+  {
+    "id": "something-went-wrong",
+    "defaultMessage": "Something went wrong, try again later"
+  },
+  {
+    "id": "names-not-unique",
+    "defaultMessage": "Names should be unique"
+  },
+  {
+    "id": "emails-not-unique",
+    "defaultMessage": "Emails should be unique"
+  },
+  {
+    "id": "email-title-empty",
+    "defaultMessage": "Please enter an email title"
+  },
+  {
+    "id": "documents-sent-for-signing",
+    "defaultMessage": "Your documents were sent for signing. We will email you when the documents are viewed or signed."
+  },
+  {
+    "id": "documents-completed-notice",
+    "defaultMessage": "Your documents were completed. You can view them in the signing sessions list."
+  },
+  {
+    "id": "view-signing-sessions",
+    "defaultMessage": "View Signing Sessions"
+  },
+  {
+    "id": "documents-completed",
+    "defaultMessage": "Documents were completed!"
+  },
+  {
+    "id": "documents-sent",
+    "defaultMessage": "Documents were successfully sent!"
+  },
+  {
+    "id": "confirmation",
+    "defaultMessage": "Confirmation"
+  },
+  {
+    "id": "name-too-long",
+    "defaultMessage": "Name is too long"
+  },
+  {
+    "id": "email-too-long",
+    "defaultMessage": "Email is too long"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "name-required",
+    "defaultMessage": "Name is required"
+  },
+  {
+    "id": "last-name-required",
+    "defaultMessage": "Last name is required"
+  },
+  {
+    "id": "first-name-too-long",
+    "defaultMessage": "First name is too long, must be less than or equal to 40 characters"
+  },
+  {
+    "id": "last-name-too-long",
+    "defaultMessage": "Last name is too long, must be less than or equal to 40 characters"
+  },
+  {
+    "id": "name-updated-successfully",
+    "defaultMessage": "Name updated successfully"
+  },
+  {
+    "id": "phone-number-updated-successfully",
+    "defaultMessage": "Phone number updated successfully"
+  },
+  {
+    "id": "password-updated-successfully",
+    "defaultMessage": "Password updated successfully"
+  },
+  {
+    "id": "failed-to-update-user",
+    "defaultMessage": "Failed to update user"
+  },
+  {
+    "id": "old-password-does-not-match",
+    "defaultMessage": "Provided old password does not match"
+  },
+  {
+    "id": "password-not-changed",
+    "defaultMessage": "The old and new passwords are the same."
+  }
+]

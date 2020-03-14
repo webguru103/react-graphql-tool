@@ -1,0 +1,6 @@
+mutation DiscardDraft($id: Int!) {
+  form: discardDraft(id: $id) {
+    id
+    draftVersionId
+  }
+}

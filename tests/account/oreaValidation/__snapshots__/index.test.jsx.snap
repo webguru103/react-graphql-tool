@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OREA Validation Index renders 1`] = `
+<div>
+  <div>
+    <p
+      class="MakeRequestC-screenTitle-2"
+      data-testid="make-request"
+    >
+      <span>
+        Identity verification
+      </span>
+    </p>
+    <div
+      class="MakeRequestC-notice-5"
+    >
+      <div
+        class="MakeRequestC-noticeImageContainer-6"
+      >
+        <svg
+          style="width: 90px;"
+          viewBox="0 0 110 110"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            fill="none"
+            fill-rule="evenodd"
+          >
+            <path
+              d="M70.757 63.607c-1.599-.741-2.3-2.259-2.3-3.914V55.22c.348-.366 2.583-3.832 3.666-8.594 1.586-.454 2.775-1.811 2.775-3.425v-5.656c0-1.056-1.051-1.511-1.84-2.171V28.86s.771-10.857-13.802-10.857c-14.572 0-13.802 10.857-13.802 10.857v6.514c-.789.661-1.84 1.116-1.84 2.171v5.646c0 1.264.896 2.388 1.968 3.03 1.295 5.223 4.473 8.697 4.473 8.697L50 58.003c0 1.6-.997 2.25-2.514 3.02-7.36 2.179-12.728 4.351-16.1 6.514-2.479 1.589-3.203 7.253-2.171 16.992 6.632 1.611 16.415 2.446 29.349 2.507 12.842 0 22.664-.78 29.467-2.341a1 1 0 0 0 .771-.874c.775-7.686.128-12.252-1.94-13.698-3.349-2.341-8.716-4.511-16.1-6.509"
+              fill="#191b24"
+              fill-opacity=".05"
+            />
+            <path
+              d="M73.757 62.607c-1.599-.741-2.3-2.259-2.3-3.914V54.22c.348-.366 2.583-3.832 3.666-8.594 1.586-.454 2.775-1.811 2.775-3.425v-5.656c0-1.056-1.051-1.511-1.84-2.171V27.86s.771-10.857-13.802-10.857c-14.572 0-13.802 10.857-13.802 10.857v6.514c-.789.661-1.84 1.116-1.84 2.171v5.646c0 1.264.896 2.388 1.968 3.03 1.295 5.223 4.473 8.697 4.473 8.697l.214 4.669c0 1.6-.997 3.25-2.514 4.02 0 0-11.04 3.269-16.1 6.514-3.718 2.384-2.44 13.407-2.44 13.407s9.948 2.416 29.349 2.507c19.93 0 30.16-2.507 30.16-2.507s1.331-11.172-1.866-13.407c-5.02-3.512-16.1-6.509-16.1-6.509"
+              fill="#7890de"
+            />
+            <path
+              d="M41.805 52.555c-5.687-5.687-15.09-5.392-20.394.884-4.608 5.455-4.207 13.739.873 18.757 3.864 3.817 9.191 4.658 14.01 2.999l2.447 2.497h4.35v3.462h3.462v3.462h4.327v4.327h2.596v2.402c0 .698.034.905.477 1.347.336.336.781.541 1.254.577h6.923v-7.788L43.637 67.853c2.621-5.193 2.502-10.96-1.836-15.298"
+              fill="#191b24"
+              fill-opacity=".05"
+            />
+            <path
+              d="M42.805 51.285c-5.687-5.687-15.09-5.392-20.394.884-4.608 5.455-4.207 13.739.873 18.757 3.864 3.817 9.191 4.658 14.01 2.999l2.447 2.497h4.35v3.462h3.462v3.462h4.327v4.327h2.596v2.402c0 .698.034.905.477 1.347.336.336.781.541 1.254.577h6.923v-7.788L44.637 66.583c2.621-5.193 2.502-10.96-1.836-15.298m-10.402 9.179a4.328 4.328 0 0 1-6.119-6.12 4.328 4.328 0 0 1 6.119 6.12"
+              fill="#e4c05c"
+            />
+            <path
+              d="M42.365 70.365l-4.856 3.777 2.236 2.281h4.35v3.462h3.462v3.462h4.327v4.327h2.596v2.402c0 .698.034.905.477 1.347.336.336.781.541 1.254.577h6.923v-.865L42.365 70.366"
+              fill="#dda86f"
+            />
+            <path
+              d="M29.385 51.327a6.06 6.06 0 1 0 0 12.12 6.06 6.06 0 0 0 0-12.12m0 10.385a4.328 4.328 0 0 1 0-8.654 4.328 4.328 0 0 1 0 8.654"
+              fill="#bc9c4d"
+            />
+          </g>
+        </svg>
+      </div>
+      <div
+        class="MakeRequestC-noticeText-3"
+      >
+        <span>
+          In order to continue, we need to verify your identity with OREA. Please click the button below to verify your identity.
+        </span>
+      </div>
+    </div>
+    <div
+      class="MakeRequestC-controlButtons-8"
+    >
+      <button
+        class="MuiButtonBase-root-40 MuiButton-root-14 MuiButton-contained-25 MuiButton-containedSecondary-27 ButtonC-secondary-12 MuiButton-raised-28 MuiButton-raisedSecondary-30 ButtonC-button-10 MakeRequestC-controlButton-9"
+        data-testid=""
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-15"
+        >
+          <span>
+            Cancel
+          </span>
+        </span>
+      </button>
+      <button
+        class="MuiButtonBase-root-40 MuiButton-root-14 MuiButton-contained-25 MuiButton-containedPrimary-26 ButtonC-primary-11 MuiButton-raised-28 MuiButton-raisedPrimary-29 ButtonC-button-10 MakeRequestC-controlButton-9"
+        data-testid="fetch-orea"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-15"
+        >
+          <span>
+            Go to OREA validation page
+          </span>
+        </span>
+      </button>
+    </div>
+    <button
+      class="MuiButtonBase-root-40 MuiButton-root-14 MuiButton-contained-25 MuiButton-containedPrimary-26 ButtonC-primary-11 MuiButton-raised-28 MuiButton-raisedPrimary-29 MuiButton-fullWidth-39 ButtonC-button-10 MakeRequestC-singleButton-4"
+      data-testid=""
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label-15"
+      >
+        ***TEST OREA DOWN***
+      </span>
+    </button>
+  </div>
+</div>
+`;

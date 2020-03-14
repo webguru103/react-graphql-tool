@@ -1,0 +1,10 @@
+query getUsersAdminBrokerages($condition: BrokerageAclCondition) {
+  brokerages: allBrokerageAcls(condition: $condition) {
+    nodes{
+      brokerageByBrokerageId {
+        id
+        brokerageName
+      }
+    }
+  }
+}

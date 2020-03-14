@@ -1,0 +1,41 @@
+query InvitedUser($condition: InviteCondition) {
+  invite: allInvites(condition: $condition) {
+    nodes {
+      id
+      resourceId
+      resourceCategory
+      email
+      firstName
+      lastName
+      expiry
+      userByUserId {
+        id
+        email
+        firstName
+        lastName
+        phone
+        brokerageAclsByUserId {
+          nodes {
+            roleId
+            roleCategory
+            resourceCategory
+            brokerageId
+          }
+        }
+        systemAclsByUserId {
+          nodes {
+            roleId
+            roleCategory
+            resourceCategory
+            systemId
+          }
+        }
+      }
+      roleByRoleId {
+        id
+        roleCategory
+        roleName
+      }
+    }
+  }
+}

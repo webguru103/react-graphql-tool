@@ -1,0 +1,9 @@
+mutation createFormGroup($formGroup: FormGroupInput!) {
+  newFormGroup: createFormGroup(formGroup: $formGroup) {
+    id
+    formGroupName
+    visibility
+    createdAt
+    updatedAt
+  }
+}

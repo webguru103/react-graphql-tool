@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cannot-add-field",
+    "defaultMessage": "Cannot add field, some error occurred"
+  },
+  {
+    "id": "cannot-update-field",
+    "defaultMessage": "Cannot update field, some error occurred"
+  },
+  {
+    "id": "field-locked",
+    "defaultMessage": "Field position is locked"
+  }
+]

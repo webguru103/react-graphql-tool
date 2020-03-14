@@ -1,0 +1,14 @@
+mutation UpdateUser($id: Int!, $user: UpdateUserInput!) {
+  updateUser(id: $id, user: $user) {
+    id
+    brokerageAclsByUserId(condition: { roleCategory: AGENT }) {
+      nodes {
+        id
+        brokerageByBrokerageId {
+          id
+          brokerageName
+        }
+      }
+    }
+  }
+}

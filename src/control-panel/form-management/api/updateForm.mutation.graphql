@@ -1,0 +1,8 @@
+mutation UpdateForm($id: Int!, $form: UpdateFormInput!) {
+  form: updateForm(id: $id, form: $form) {
+    id
+    formName
+    formGroupId
+    formStatus
+  }
+}

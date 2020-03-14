@@ -1,0 +1,30 @@
+[
+  {
+    "id": "error-deleting-document",
+    "defaultMessage": "Sorry, error deleting document!"
+  },
+  {
+    "id": "table-head-name",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "table-head-owner",
+    "defaultMessage": "Owner"
+  },
+  {
+    "id": "table-head-last-modified",
+    "defaultMessage": "Last Modified"
+  },
+  {
+    "id": "menu-copy",
+    "defaultMessage": "Copy"
+  },
+  {
+    "id": "menu-delete",
+    "defaultMessage": "Delete"
+  },
+  {
+    "id": "no-form-selected",
+    "defaultMessage": "Select at least one form"
+  }
+]

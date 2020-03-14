@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cannot Reach Screen renders 1`] = `
+<div>
+  <p
+    data-testid="cannot-reach"
+  >
+    <span>
+      We couldn't reach OREA
+    </span>
+  </p>
+  <div>
+    <div>
+      <svg
+        style="width: 80px; transform: translate(-18px, -12px);"
+        viewBox="0 0 110 110"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          fill="none"
+          fill-rule="evenodd"
+          transform="translate(17 8)"
+        >
+          <rect
+            fill="#191b24"
+            fill-opacity=".05"
+            height="57"
+            rx="2"
+            width="73"
+            y="37"
+          />
+          <path
+            d="M5 32.4h70a1 1 0 0 1 1 1V89a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V33.4a1 1 0 0 1 1-1"
+            fill="#ebba16"
+          />
+          <path
+            d="M50.8 57.6c0-5.965-4.835-10.8-10.8-10.8-5.965 0-10.8 4.835-10.8 10.8 0 4.741 3.074 8.726 7.326 10.177-.04.209-.126.403-.126.623v7.2c0 1.987 1.613 3.6 3.6 3.6s3.6-1.613 3.6-3.6v-7.2c0-.22-.086-.414-.126-.623C47.726 66.326 50.8 62.341 50.8 57.6"
+            fill="#38454f"
+          />
+          <path
+            d="M35 7.2c9.925 0 13.896-7.2 0-7.2S9.8 11.304 9.8 25.2v7.2H17v-7.2c0-9.925 8.07-18 18-18"
+            fill="#191b24"
+            fill-opacity=".05"
+          />
+          <path
+            d="M22 25.2c0-9.925 8.07-18 18-18 9.925 0 18 8.07 18 18v7.2h7.2v-7.2C65.2 11.304 53.896 0 40 0 26.104 0 14.8 11.304 14.8 25.2v7.2H22v-7.2"
+            fill="#424a60"
+          />
+        </g>
+      </svg>
+    </div>
+    <div>
+      <span>
+        Sorry, but we were not able to reach OREA at this moment. You can go back and try again, or verify later in your account settings.
+      </span>
+    </div>
+  </div>
+  <div>
+    <button
+      class="MuiButtonBase-root-31 MuiButton-root-5 MuiButton-contained-16 MuiButton-containedSecondary-18 ButtonC-secondary-3 MuiButton-raised-19 MuiButton-raisedSecondary-21 ButtonC-button-1"
+      data-testid="change-view-do-it-later"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label-6"
+      >
+        <span>
+          Do It Later
+        </span>
+      </span>
+    </button>
+    <button
+      class="MuiButtonBase-root-31 MuiButton-root-5 MuiButton-contained-16 MuiButton-containedPrimary-17 ButtonC-primary-2 MuiButton-raised-19 MuiButton-raisedPrimary-20 ButtonC-button-1"
+      data-testid="change-view-make-request"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label-6"
+      >
+        <span>
+          Try Again
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;

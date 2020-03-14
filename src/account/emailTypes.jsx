@@ -1,0 +1,4 @@
+export const EmailType = {
+  ACTIVATE_ACCOUNT: 'ACTIVATE_ACCOUNT',
+  FORGOT_PASSWORD: 'FORGOT_PASSWORD',
+};

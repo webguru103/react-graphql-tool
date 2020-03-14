@@ -1,0 +1,170 @@
+[
+  {
+    "id": "empty-bo-name",
+    "defaultMessage": "Please input the brokerage office name"
+  },
+  {
+    "id": "empty-phone",
+    "defaultMessage": "Please input a phone number"
+  },
+  {
+    "id": "empty-street-num",
+    "defaultMessage": "Please input a street number"
+  },
+  {
+    "id": "empty-street-name",
+    "defaultMessage": "Please input a street name"
+  },
+  {
+    "id": "empty-city",
+    "defaultMessage": "Please input a city"
+  },
+  {
+    "id": "empty-province",
+    "defaultMessage": "Please select a province"
+  },
+  {
+    "id": "empty-postal",
+    "defaultMessage": "Please input a postal code"
+  },
+  {
+    "id": "empty-country",
+    "defaultMessage": "Please select a country"
+  },
+  {
+    "id": "empty-field",
+    "defaultMessage": "Field cannot be empty"
+  },
+  {
+    "id": "invalid-email",
+    "defaultMessage": "Invalid Email"
+  },
+  {
+    "id": "invalid-phone-number",
+    "defaultMessage": "Invalid Phone Number"
+  },
+  {
+    "id": "invalid-fax-number",
+    "defaultMessage": "Invalid Fax Number"
+  },
+  {
+    "id": "invalid-street-number",
+    "defaultMessage": "Invalid Street Number"
+  },
+  {
+    "id": "bo-exists",
+    "defaultMessage": "Brokerage Office already exists"
+  },
+  {
+    "id": "email-exists",
+    "defaultMessage": "User with that email already exists"
+  },
+  {
+    "id": "bo-name-too-long",
+    "defaultMessage": "Sorry, brokerage office name must be less than 100 characters"
+  },
+  {
+    "id": "unit-too-long",
+    "defaultMessage": "Sorry, unit must be less than 10 characters"
+  },
+  {
+    "id": "street-num-too-long",
+    "defaultMessage": "Sorry, street number must be less than 10 characters"
+  },
+  {
+    "id": "street-name-too-long",
+    "defaultMessage": "Sorry, street name must be less than 100 characters"
+  },
+  {
+    "id": "city-too-long",
+    "defaultMessage": "Sorry, city must be less than 40 characters"
+  },
+  {
+    "id": "province-too-long",
+    "defaultMessage": "Sorry, province name must be less than 20 characters"
+  },
+  {
+    "id": "country-too-long",
+    "defaultMessage": "Sorry, country name must be less than 100 characters"
+  },
+  {
+    "id": "postal-too-long",
+    "defaultMessage": "Sorry, postal code must be less than 10 characters"
+  },
+  {
+    "id": "error-adding-bo",
+    "defaultMessage": "Sorry, there was an error adding your brokerage office!"
+  },
+  {
+    "id": "error-adding-admin",
+    "defaultMessage": "Sorry, there was an error adding your user!"
+  },
+  {
+    "id": "error-checking-email",
+    "defaultMessage": "Sorry, there was an error finding that email"
+  },
+  {
+    "id": "error-getting-user",
+    "defaultMessage": "Sorry, there was an error finding that user"
+  },
+  {
+    "id": "error-gettting-brokerages",
+    "defaultMessage": "Sorry, there was an error retrieving brokerages"
+  },
+  {
+    "id": "success-create-brokerage",
+    "defaultMessage": "Brokerage Office created"
+  },
+  {
+    "id": "success-invite-admin",
+    "defaultMessage": "Invitation sent"
+  },
+  {
+    "id": "settings",
+    "defaultMessage": "Settings"
+  },
+  {
+    "id": "set-super",
+    "defaultMessage": "Set Super Admin"
+  },
+  {
+    "id": "new-bo",
+    "defaultMessage": "New Brokerage Office"
+  },
+  {
+    "id": "create",
+    "defaultMessage": "Create"
+  },
+  {
+    "id": "invite",
+    "defaultMessage": "Invite"
+  },
+  {
+    "id": "add",
+    "defaultMessage": "Add"
+  },
+  {
+    "id": "submit",
+    "defaultMessage": "Submit"
+  },
+  {
+    "id": "create-cont",
+    "defaultMessage": "Create and Continue"
+  },
+  {
+    "id": "not-now",
+    "defaultMessage": "Not Right Now"
+  },
+  {
+    "id": "want-to-add-admin",
+    "defaultMessage": "Adding an Admin to this BO?"
+  },
+  {
+    "id": "add-admin",
+    "defaultMessage": "Add Admin Access"
+  },
+  {
+    "id": "invite-admin",
+    "defaultMessage": "Invite New Admin"
+  }
+]

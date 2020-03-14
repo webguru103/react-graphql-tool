@@ -1,0 +1,90 @@
+mutation CreatePageFields($fields: PageFieldsInput!) {
+  fields: createPageFields(fields: $fields){
+    textFields: pageFieldTexts {
+      id
+      fieldName
+      deleted
+      dataReference
+      x
+      y
+      width
+      height
+      positionLock
+      assignee
+    }
+    dateFields: pageFieldDates {
+      id
+      fieldName
+      deleted
+      dataReference
+      x
+      y
+      width
+      height
+      positionLock
+      assignee
+      dateFormat
+    }
+    boolFields: pageFieldBools{
+      id
+      fieldName
+      deleted
+      dataReference
+      x
+      y
+      width
+      height
+      positionLock
+      createdAt
+      updatedAt
+      color
+      positionLock
+      assignee
+    }
+    initialFields: pageFieldInitials{
+      id
+      fieldName
+      deleted
+      dataReference
+      x
+      y
+      width
+      height
+      createdAt
+      updatedAt
+      color
+      positionLock
+      assignee
+    }
+    lineFields: pageFieldLines{
+      id
+      fieldName
+      deleted
+      x1
+      y1
+      x2
+      y2
+      positionLock
+      createdAt
+      updatedAt
+      color
+      strokeThickness
+    }
+    signatureFields: pageFieldSignatures{
+      id
+      fieldName
+      deleted
+      dataReference
+      x
+      y
+      width
+      height
+      positionLock
+      assignee
+      createdAt
+      updatedAt
+      color
+      positionLock
+    }
+  }
+}

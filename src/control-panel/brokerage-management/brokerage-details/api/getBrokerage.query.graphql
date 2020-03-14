@@ -1,0 +1,18 @@
+query GetBrokerage($condition: BrokerageCondition) {
+  brokerage: allBrokerages(condition: $condition) {
+    nodes {
+      id
+      brokerageName
+      unit
+      streetNumber
+      streetName
+      city
+      province
+      postalCode
+      country
+      phone
+      fax
+      createdAt
+    }
+  }
+}

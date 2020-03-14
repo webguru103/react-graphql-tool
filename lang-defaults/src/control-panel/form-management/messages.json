@@ -1,0 +1,22 @@
+[
+  {
+    "id": "form-updated",
+    "defaultMessage": "Form updated"
+  },
+  {
+    "id": "network-error",
+    "defaultMessage": "Some error occurred"
+  },
+  {
+    "id": "form-name-empty",
+    "defaultMessage": "Should not be empty"
+  },
+  {
+    "id": "active",
+    "defaultMessage": "Active"
+  },
+  {
+    "id": "inactive",
+    "defaultMessage": "Inactive"
+  }
+]

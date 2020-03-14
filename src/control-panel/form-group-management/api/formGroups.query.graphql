@@ -1,0 +1,21 @@
+query FormGroups ($condition : FormGroupCondition, $offset: Int, $first: Int, $orderBy: [FormGroupsOrderBy!]) {
+  formGroups: allFormGroups(condition: $condition, offset: $offset, first: $first, orderBy: $orderBy){
+    nodes{
+      id
+      formGroupName
+      visibility
+      formCount
+      createdAt
+      updatedAt
+      userByCreatedBy {
+        firstName
+        lastName
+      }
+      userByUpdatedBy {
+        firstName
+        lastName
+      }
+    }
+    totalCount
+  }
+}

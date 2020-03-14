@@ -1,0 +1,18 @@
+[
+  {
+    "id": "signing-completed",
+    "defaultMessage": "Signing Completed!"
+  },
+  {
+    "id": "we-will-send-copy",
+    "defaultMessage": "We will send you a copy when all signees have signed."
+  },
+  {
+    "id": "view-document",
+    "defaultMessage": "View Document"
+  },
+  {
+    "id": "close-window",
+    "defaultMessage": "Close Window"
+  }
+]

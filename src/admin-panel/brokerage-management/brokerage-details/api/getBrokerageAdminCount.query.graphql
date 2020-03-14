@@ -1,0 +1,11 @@
+query GetBrokerageAdminCount($brokerageCondition: BrokerageCondition, $adminAclCondition: BrokerageAclCondition){
+  adminCount: allBrokerages(condition: $brokerageCondition) {
+    nodes {
+      id
+      brokerageName
+      brokerageAclsByBrokerageId(condition: $adminAclCondition) {
+        totalCount
+      }
+    }
+  }
+}

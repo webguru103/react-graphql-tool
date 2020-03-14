@@ -1,0 +1,6 @@
+mutation DeleteDocument($id: ID!, $document: DocumentInput!) {
+  deleteDocument: updateDocument(id: $id, document: $document) {
+    id
+    deleted
+  }
+}

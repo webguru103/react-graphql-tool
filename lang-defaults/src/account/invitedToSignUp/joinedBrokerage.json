@@ -1,0 +1,6 @@
+[
+  {
+    "id": "joined-brokerage-message",
+    "defaultMessage": "You have successfully joined {brokerageName} as an agent. Please log in to continue."
+  }
+]

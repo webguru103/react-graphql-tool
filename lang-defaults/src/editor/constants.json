@@ -1,0 +1,102 @@
+[
+  {
+    "id": "cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "confirm",
+    "defaultMessage": "Confirm"
+  },
+  {
+    "id": "discard",
+    "defaultMessage": "Discard"
+  },
+  {
+    "id": "discard-draft",
+    "defaultMessage": "Discard Draft"
+  },
+  {
+    "id": "revert-published",
+    "defaultMessage": "Revert to Published Version"
+  },
+  {
+    "id": "publish",
+    "defaultMessage": "Publish"
+  },
+  {
+    "id": "confirm-discard",
+    "defaultMessage": "Discard current draft?"
+  },
+  {
+    "id": "confirm-discard-message",
+    "defaultMessage": "The changes you made will be lost, and the current draft will be reverted to the existing published version."
+  },
+  {
+    "id": "confirm-publish",
+    "defaultMessage": "Confirm Publish?"
+  },
+  {
+    "id": "confirm-publish-message",
+    "defaultMessage": "The existing published version will be overridden"
+  },
+  {
+    "id": "draft-discarded-successfully",
+    "defaultMessage": "Draft Discarded - {formName}"
+  },
+  {
+    "id": "draft-successfully-published",
+    "defaultMessage": "The draft has been successfully published"
+  },
+  {
+    "id": "request-error",
+    "defaultMessage": "Sorry, there was an error processing your request!"
+  },
+  {
+    "id": "delete-fields",
+    "defaultMessage": "Delete Fields"
+  },
+  {
+    "id": "cannot-add-field",
+    "defaultMessage": "Can not add field, some error occurred"
+  },
+  {
+    "id": "cannot-update-field",
+    "defaultMessage": "Can not update fields, some error occurred"
+  },
+  {
+    "id": "cannot-delete-field",
+    "defaultMessage": "Can not delete fields, some error occurred"
+  },
+  {
+    "id": "cannot-complete-signing",
+    "defaultMessage": "Cannot complete signing, some error occurred"
+  },
+  {
+    "id": "cannot-sign-field",
+    "defaultMessage": "Cannot sign field, some error occurred"
+  },
+  {
+    "id": "please-sign-all-fields",
+    "defaultMessage": "Please sign your fields first"
+  },
+  {
+    "id": "cannot-wipe-field",
+    "defaultMessage": "Cannot wipe a field, some error occurred"
+  },
+  {
+    "id": "click-to-sign",
+    "defaultMessage": "Click to sign"
+  },
+  {
+    "id": "click-to-initial",
+    "defaultMessage": "Click to initial"
+  },
+  {
+    "id": "download-error",
+    "defaultMessage": "Failed to download document(s)"
+  },
+  {
+    "id": "no-more-fields",
+    "defaultMessage": "Can not add any more fields"
+  }
+]

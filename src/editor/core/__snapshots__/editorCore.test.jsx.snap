@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Editor renders 1`] = `
+<div>
+  <div>
+    <form
+      class="withRouter-FormDataEditorC--form-1"
+    />
+  </div>
+</div>
+`;

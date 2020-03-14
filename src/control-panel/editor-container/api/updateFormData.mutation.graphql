@@ -1,0 +1,7 @@
+mutation UpdateFormData($id: Int!, $fields: UpdateFormDataInput!) {
+  formData: updateFormData(id: $id, fields: $fields) {
+    id
+    formVersionId
+    value
+  }
+}

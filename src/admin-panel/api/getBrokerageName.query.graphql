@@ -1,0 +1,8 @@
+query GetBrokerageName($condition: BrokerageCondition) {
+  brokerages: allBrokerages(condition: $condition) {
+    nodes {
+      id
+      brokerageName
+    }
+  }
+}

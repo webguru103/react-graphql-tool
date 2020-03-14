@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransactionC should render 1`] = `
+<div>
+  <WithStyles(Apollo(CopyTransactionHOC))
+    filterInput=""
+    filtering={false}
+    onTransactionClick={[Function]}
+    transactions={
+      Array [
+        Object {
+          "createdAt": "01/01/2018",
+          "id": "id1",
+          "name": "Example 1",
+          "updatedAt": "01/01/2018",
+        },
+        Object {
+          "createdAt": "01/01/2018",
+          "id": "id2",
+          "name": "Example Deal 2",
+          "updatedAt": "01/01/2018",
+        },
+        Object {
+          "createdAt": "01/01/2015",
+          "id": "id3",
+          "name": "Example 3",
+          "updatedAt": "01/01/2018",
+        },
+        Object {
+          "createdAt": "01/01/2015",
+          "id": "id4",
+          "name": "Example 4",
+          "updatedAt": "01/01/2018",
+        },
+      ]
+    }
+  />
+  <div />
+</div>
+`;

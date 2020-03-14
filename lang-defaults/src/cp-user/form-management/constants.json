@@ -1,0 +1,86 @@
+[
+  {
+    "id": "empty-revision-name",
+    "defaultMessage": "Please input the revision name"
+  },
+  {
+    "id": "new-form",
+    "defaultMessage": "New Form"
+  },
+  {
+    "id": "processing",
+    "defaultMessage": "Processing"
+  },
+  {
+    "id": "upload-label",
+    "defaultMessage": "Upload PDF, JPG, PNG"
+  },
+  {
+    "id": "form-name",
+    "defaultMessage": "Form Name"
+  },
+  {
+    "id": "duplicate-revision-name",
+    "defaultMessage": "Name already taken. Please try another one"
+  },
+  {
+    "id": "revision-name-too-long",
+    "defaultMessage": "Sorry, revision name must be less than 64 characters"
+  },
+  {
+    "id": "no-revision-selected",
+    "defaultMessage": "Please select a revision"
+  },
+  {
+    "id": "no-pdf-uploaded",
+    "defaultMessage": "Please upload the form base"
+  },
+  {
+    "id": "error-updating-revision",
+    "defaultMessage": "Sorry, there was an error updating your revision"
+  },
+  {
+    "id": "error-renaming-revision",
+    "defaultMessage": "Sorry, there was an error renaming your revision"
+  },
+  {
+    "id": "revision-notes-too-long",
+    "defaultMessage": "Sorry, revision notes must be less than 2000 characters"
+  },
+  {
+    "id": "start-editing",
+    "defaultMessage": "Start Editing"
+  },
+  {
+    "id": "view",
+    "defaultMessage": "View"
+  },
+  {
+    "id": "create",
+    "defaultMessage": "Create"
+  },
+  {
+    "id": "create-this-revision",
+    "defaultMessage": "Create This Revision"
+  },
+  {
+    "id": "publish",
+    "defaultMessage": "Publish"
+  },
+  {
+    "id": "unpublish",
+    "defaultMessage": "Unpublish"
+  },
+  {
+    "id": "created-instances-not-affected",
+    "defaultMessage": "This will not affect instances already created."
+  },
+  {
+    "id": "publish-warning",
+    "defaultMessage": "Once published, any new instances of this form created from now on will be using the new published revision."
+  },
+  {
+    "id": "unpublish-warning",
+    "defaultMessage": "This form will have no published revision.\n    Customers will not be able to create any instances of this\n    form when there is no published revision."
+  }
+]

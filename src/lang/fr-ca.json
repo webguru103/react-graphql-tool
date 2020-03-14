@@ -1,0 +1,7 @@
+{
+  "document": "Document",
+  "fields": "Champs",
+  "history": "Histoire",
+  "buttonlabel": "Commencer à Signe",
+  "welcome": "Bonjour {name}, tu avais {unreadCount} messages sur"
+}

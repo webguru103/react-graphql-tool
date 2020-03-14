@@ -1,0 +1,91 @@
+mutation UpdatePageFields($fields: UpdatePageFieldsInput!) {
+  fields: updatePageFields(fields: $fields){
+    textFields: pageFieldTexts {
+      id
+      fieldName
+      formVersionId
+      formPageId
+      x
+      y
+      width
+      height
+      positionLock
+      deleted
+      assignee
+    }
+    dateFields: pageFieldDates {
+      id
+      fieldName
+      formVersionId
+      formPageId
+      x
+      y
+      width
+      height
+      positionLock
+      deleted
+      assignee
+    }
+    checkboxFields: pageFieldBools {
+      id
+      fieldName
+      formVersionId
+      formPageId
+      x
+      y
+      width
+      height
+      color
+      positionLock
+      deleted
+      assignee
+    }
+    signatureFields: pageFieldSignatures {
+      id
+      fieldName
+      deleted
+      dataReference
+      x
+      y
+      width
+      height
+      positionLock
+      createdAt
+      updatedAt
+      color
+      assignee
+      positionLock
+    }
+    initialFields: pageFieldInitials {
+      id
+      fieldName
+      deleted
+      dataReference
+      x
+      y
+      width
+      height
+      positionLock
+      createdAt
+      updatedAt
+      color
+      assignee
+      positionLock
+    }
+    lineFields: pageFieldLines {
+      id
+      fieldName
+      x1
+      y1
+      x2
+      y2
+      positionLock
+      createdAt
+      updatedAt
+      color
+      strokeThickness
+      positionLock
+      deleted
+    }
+  }
+}

@@ -1,0 +1,9 @@
+mutation UpdateFormGroup($id: Int!, $formGroup: FormGroupInput!) {
+  updateFormGroup(id: $id, formGroup: $formGroup) {
+    id
+    formGroupName
+    visibility
+    createdAt
+    updatedAt
+  }
+}

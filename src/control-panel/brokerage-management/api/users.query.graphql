@@ -1,0 +1,7 @@
+query Users($userCondition : UserCondition!){
+  Users: allUsers(condition: $userCondition) {
+    nodes{
+      id
+    }
+  }
+}

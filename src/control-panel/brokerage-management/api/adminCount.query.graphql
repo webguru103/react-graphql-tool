@@ -1,0 +1,11 @@
+query GetAdminBrokerages($adminAclCondition: BrokerageAclCondition) {
+  brokerages: allBrokerages (orderBy: ID_ASC) {
+    nodes {
+      id
+      brokerageName
+      brokerageAclsByBrokerageId(condition: $adminAclCondition) {
+        totalCount
+      }
+		}
+	}
+}

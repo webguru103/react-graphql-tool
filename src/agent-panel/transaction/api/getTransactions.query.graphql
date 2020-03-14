@@ -1,0 +1,13 @@
+query GetTransactions($pagination: Pagination!) {
+  transactions: transactions(pagination: $pagination) @connection(key: "transactions") {
+    pageCount
+    list {
+      ... on Transaction {
+        id
+        name
+        createdAt
+        updatedAt
+      }
+    }
+  }
+}

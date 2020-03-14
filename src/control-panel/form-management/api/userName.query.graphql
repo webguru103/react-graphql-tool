@@ -1,0 +1,10 @@
+query UserName($condition: UserCondition!) {
+  user: allUsers(condition: $condition) {
+    nodes {
+      id
+      email
+      firstName
+      lastName
+    }
+  }
+}

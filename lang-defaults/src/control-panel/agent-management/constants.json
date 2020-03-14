@@ -1,0 +1,10 @@
+[
+  {
+    "id": "successfuly-sent-invite",
+    "defaultMessage": "Invite has been sent"
+  },
+  {
+    "id": "successfuly-sent-invites",
+    "defaultMessage": "Successfuly sent {amount} invites"
+  }
+]

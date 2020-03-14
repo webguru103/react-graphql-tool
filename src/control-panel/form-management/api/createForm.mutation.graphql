@@ -1,0 +1,6 @@
+mutation CreateForm($form: FormInput!, $formVersion: FormVersionInput!) {
+  createForm(form: $form, formVersion: $formVersion) {
+    id
+    formName
+  }
+}

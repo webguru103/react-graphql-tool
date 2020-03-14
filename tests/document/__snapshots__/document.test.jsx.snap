@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DocumentC should render 1`] = `
+<div>
+  <Apollo(CopyDocumentHOC)
+    documents={
+      Array [
+        Object {
+          "createdAt": "01/01/2018",
+          "id": "id1",
+          "name": "Document 1",
+          "updatedAt": "01/01/2018",
+        },
+        Object {
+          "createdAt": "01/01/2018",
+          "id": "id2",
+          "name": "Document 2",
+          "updatedAt": "01/01/2018",
+        },
+        Object {
+          "createdAt": "01/01/2015",
+          "id": "id3",
+          "name": "Document 3",
+          "updatedAt": "01/01/2018",
+        },
+        Object {
+          "createdAt": "01/01/2015",
+          "id": "id4",
+          "name": "Document 4",
+          "updatedAt": "01/01/2018",
+        },
+      ]
+    }
+    filtering={false}
+    onDocumentClick={[Function]}
+  />
+  <div />
+</div>
+`;

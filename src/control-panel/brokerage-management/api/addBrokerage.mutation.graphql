@@ -1,0 +1,7 @@
+mutation addBrokerage($brokerage: BrokerageInput!) {
+  createBrokerage(brokerage: $brokerage) {
+    id
+    brokerageName
+    phone
+  }
+}

@@ -1,0 +1,16 @@
+query GetUser($id: ID!, $pagination: Pagination!) {
+  user(id: $id) {
+    oreaVerified
+    phone
+    email
+    userRoles(pagination: $pagination) {
+      list {
+        roleType
+        brokerage {
+          id
+          name
+        }
+      }
+    }
+  }
+}

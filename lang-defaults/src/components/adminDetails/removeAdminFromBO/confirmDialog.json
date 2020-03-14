@@ -1,0 +1,6 @@
+[
+  {
+    "id": "remove-admin-confirmation",
+    "defaultMessage": "Are you sure you want to remove {adminName} from this brokerage? They will no longer have admin access to this brokerage office."
+  }
+]

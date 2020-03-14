@@ -1,0 +1,154 @@
+query GetFormAndVersionByPublished($condition: FormCondition, $textCondition: PageFieldTextCondition, $boolCondition: PageFieldBoolCondition, $dateCondition: PageFieldDateCondition, $signatureCondition: PageFieldSignatureCondition, $initialCondition: PageFieldInitialCondition, $lineCondition: PageFieldLineCondition) {
+  forms: allForms(condition: $condition) {
+    totalCount
+    nodes {
+      id
+      formName
+      formGroupId
+      draftVersionId
+      publishedVersionId
+      createdAt
+      updatedAt
+      formStatus
+      publishedAt
+      publishedBy
+      draftSavedAt
+      draftSavedBy
+      formVersion: formVersionByPublishedVersion {
+        id
+        createdAt
+        updatedAt
+        sourceURL
+        pages: formPagesByFormVersionId {
+          totalCount
+          nodes {
+            id
+            pageNumber
+            sourceURL
+            textFields: pageFieldTextsByFormPageId (condition: $textCondition) {
+              totalCount
+              nodes {
+                id
+                fieldName
+                deleted
+                dataReference
+                autocomplete
+                x
+                y
+                width
+                height
+                positionLock
+                createdAt
+                updatedAt
+                color
+                fontSize
+                alignment
+                padding
+                lineHeight
+                assignee
+              }
+            }
+            boolFields: pageFieldBoolsByFormPageId (condition: $boolCondition) {
+              nodes {
+                id
+                fieldName
+                deleted
+                dataReference
+                x
+                y
+                width
+                height
+                positionLock
+                createdAt
+                updatedAt
+                color
+                assignee
+              }
+            }
+            dateFields: pageFieldDatesByFormPageId (condition: $dateCondition) {
+              nodes {
+                id
+                fieldName
+                deleted
+                dataReference
+                x
+                y
+                width
+                height
+                dateFormat
+                positionLock
+                createdAt
+                updatedAt
+                color
+                fontSize
+                alignment
+                padding
+                assignee
+              }
+            }
+            signatureFields: pageFieldSignaturesByFormPageId (condition: $signatureCondition) {
+              nodes {
+                id
+                fieldName
+                deleted
+                dataReference
+                x
+                y
+                width
+                height
+                positionLock
+                createdAt
+                updatedAt
+                color
+                assignee
+              }
+            }
+            initialFields: pageFieldInitialsByFormPageId (condition: $initialCondition) {
+              nodes {
+                id
+                fieldName
+                deleted
+                dataReference
+                x
+                y
+                width
+                height
+                positionLock
+                createdAt
+                updatedAt
+                color
+                assignee
+              }
+            }
+            lineFields: pageFieldLinesByFormPageId (condition: $lineCondition) {
+              nodes {
+                id
+                fieldName
+                x1
+                y1
+                x2
+                y2
+                positionLock
+                createdAt
+                updatedAt
+                color
+                strokeThickness
+              }
+            }
+          }
+        }
+        formData: formDataByFormVersionId{
+          nodes {
+            id
+            dataName: formDataName
+            fieldType
+            affectsSignature
+            minLen
+            maxLen
+            value
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Do It Later Screen renders 1`] = `
+<div>
+  <div
+    data-testid="do-it-later"
+  >
+    <div>
+      <span>
+        You can validate with OREA anytime in the Account Settings page.
+      </span>
+    </div>
+  </div>
+  <div>
+    <button
+      class="MuiButtonBase-root-31 MuiButton-root-5 MuiButton-contained-16 MuiButton-containedSecondary-18 ButtonC-secondary-3 MuiButton-raised-19 MuiButton-raisedSecondary-21 ButtonC-button-1"
+      data-testid="close-dialog"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label-6"
+      >
+        <span>
+          OK
+        </span>
+      </span>
+    </button>
+  </div>
+</div>
+`;

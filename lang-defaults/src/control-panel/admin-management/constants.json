@@ -1,0 +1,26 @@
+[
+  {
+    "id": "invalid-email",
+    "defaultMessage": "Please check the email format"
+  },
+  {
+    "id": "empty-email",
+    "defaultMessage": "Please input an email"
+  },
+  {
+    "id": "empty-first-name",
+    "defaultMessage": "Please input a first name"
+  },
+  {
+    "id": "empty-last-name",
+    "defaultMessage": "Please input a last name"
+  },
+  {
+    "id": "request-error",
+    "defaultMessage": "Sorry, there was an error processing your request!"
+  },
+  {
+    "id": "successfully-invited",
+    "defaultMessage": "The invite has been sent"
+  }
+]

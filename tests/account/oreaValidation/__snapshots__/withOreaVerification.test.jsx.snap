@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With OREA Verification HOC renders 1`] = `
+<div>
+  <div
+    data-testid="test"
+  >
+    true
+  </div>
+</div>
+`;

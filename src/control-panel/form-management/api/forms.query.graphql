@@ -1,0 +1,25 @@
+query GetForms($condition: FormCondition, $offset: Int, $first: Int, $orderBy: [FormsOrderBy!]) {
+  forms: allForms(condition: $condition, offset: $offset, first: $first, orderBy: $orderBy) {
+    nodes {
+      id
+      formName
+      formGroupId
+      draftVersionId
+      publishedVersionId
+      createdAt
+      updatedAt
+      formStatus
+      publishedAt
+      userByPublishedBy {
+        firstName
+        lastName
+      }
+      draftSavedAt
+      userByDraftSavedBy {
+        firstName
+        lastName
+      }
+    }
+    totalCount
+  }
+}

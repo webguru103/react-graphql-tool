@@ -1,0 +1,10 @@
+[
+  {
+    "id": "email-title-empty",
+    "defaultMessage": "Please input an email title"
+  },
+  {
+    "id": "download-error",
+    "defaultMessage": "Failed to download document(s)"
+  }
+]

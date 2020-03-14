@@ -1,0 +1,6 @@
+[
+  {
+    "id": "remove-agent-confirmation",
+    "defaultMessage": "Are you sure you want to remove {agentName} from {brokerageName}?"
+  }
+]

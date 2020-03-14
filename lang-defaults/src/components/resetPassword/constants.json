@@ -1,0 +1,14 @@
+[
+  {
+    "id": "expired-link",
+    "defaultMessage": "Link has expired, please request another Password Reset email."
+  },
+  {
+    "id": "expired-link-redirect",
+    "defaultMessage": "You will be redirected to the login page in a few seconds."
+  },
+  {
+    "id": "reset-password",
+    "defaultMessage": "Reset Password"
+  }
+]

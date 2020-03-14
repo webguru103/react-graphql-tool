@@ -1,0 +1,8 @@
+mutation CopyDocument($id: ID!) {
+  copyDocument: copyDocument(id: $id) {
+    id
+    name
+    createdAt
+    updatedAt
+  }
+}

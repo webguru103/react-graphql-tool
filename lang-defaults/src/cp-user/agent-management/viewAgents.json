@@ -1,0 +1,6 @@
+[
+  {
+    "id": "agent-removed-feedback",
+    "defaultMessage": "{agentName} has been removed from {brokerageName}"
+  }
+]

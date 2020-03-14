@@ -1,0 +1,8 @@
+query GetAllBrokerages {
+  brokerages: allBrokerages {
+    nodes {
+      id
+      brokerageName
+    }
+  }
+}

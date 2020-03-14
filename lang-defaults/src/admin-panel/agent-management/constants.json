@@ -1,0 +1,26 @@
+[
+  {
+    "id": "successfuly-sent-invite",
+    "defaultMessage": "Invite has been sent"
+  },
+  {
+    "id": "successfuly-sent-invites",
+    "defaultMessage": "Successfuly sent {amount} invites"
+  },
+  {
+    "id": "no-emails",
+    "defaultMessage": "Please input an email"
+  },
+  {
+    "id": "invalid-emails",
+    "defaultMessage": "Please input valid emails separated with comma or return"
+  },
+  {
+    "id": "request-error",
+    "defaultMessage": "Sorry, there was an error processing your request!"
+  },
+  {
+    "id": "couldnot-send-invite",
+    "defaultMessage": "Could not send invite to the following agents:"
+  }
+]

@@ -1,0 +1,35 @@
+export default (theme: Object) => ({
+  screenContainer: {
+    maxWidth: '760px',
+    width: '100%',
+    position: 'relative',
+    background: '#ffffff',
+    borderRadius: '4px',
+    boxShadow: '0px 0px 5px 3px rgba(0, 0, 0, 0.12)',
+  },
+  screenTitle: ({
+    fontSize: '26px',
+    lineHeight: '1.15',
+    color: theme.palette.neutrals.mainText,
+    marginBottom: '30px',
+  }),
+  buttonContainer: {
+    background: 'transparent',
+    position: 'absolute',
+    bottom: '-60px',
+    width: '100%',
+    textAlign: 'center',
+  },
+  backButton: {
+    fontSize: '18px',
+    fontWeight: '500',
+    color: '#FFFFFF',
+    boxShadow: 'none',
+    background: '#B468DB',
+    padding: '8px 1.2rem',
+    outline: 'none',
+    border: '1px solid #B468DB',
+    cursor: 'pointer',
+    borderRadius: '4px',
+  },
+});

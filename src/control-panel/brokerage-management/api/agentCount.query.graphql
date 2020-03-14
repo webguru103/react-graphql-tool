@@ -1,0 +1,11 @@
+query GetAgentBrokerages($agentAclCondition: BrokerageAclCondition) {
+  brokerages: allBrokerages (orderBy: ID_ASC) {
+    nodes {
+      id
+      brokerageName
+      brokerageAclsByBrokerageId(condition: $agentAclCondition) {
+        totalCount
+      }
+		}
+	}
+}

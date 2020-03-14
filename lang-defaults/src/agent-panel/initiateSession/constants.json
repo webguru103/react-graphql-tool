@@ -1,0 +1,38 @@
+[
+  {
+    "id": "full-name-required",
+    "defaultMessage": "Please enter full name"
+  },
+  {
+    "id": "email-required",
+    "defaultMessage": "Please enter email"
+  },
+  {
+    "id": "email-wrong",
+    "defaultMessage": "Email is not valid"
+  },
+  {
+    "id": "at-least-one-signee",
+    "defaultMessage": "Add at least one signee"
+  },
+  {
+    "id": "full-name-not-valid",
+    "defaultMessage": "Full name should consists of at least two words"
+  },
+  {
+    "id": "something-went-wrong",
+    "defaultMessage": "Something went wrong, try again later"
+  },
+  {
+    "id": "names-not-unique",
+    "defaultMessage": "Names should be unique"
+  },
+  {
+    "id": "emails-not-unique",
+    "defaultMessage": "Emails should be unique"
+  },
+  {
+    "id": "the-only-signee",
+    "defaultMessage": "You can not be the only signee"
+  }
+]

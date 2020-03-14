@@ -1,0 +1,900 @@
+schema {
+  query: Query
+  mutation: Mutation
+}
+
+type Query {
+
+  getBrokerageAclByUserIdRoleCategory(
+    pUserId: Int
+    pRoleCategory: [RoleCategory]
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+  ): BrokerageAclsConnection
+
+  allBrokerages(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [BrokeragesOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: BrokerageCondition
+  ): BrokeragesConnection
+
+  allBrokerageAcls(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [BrokerageAclsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: BrokerageAclCondition
+  ): BrokerageAclsConnection
+
+  allInvites(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [InvitesOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: InviteCondition
+  ): InvitesConnection
+
+  allPermissions(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [PermissionsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: PermissionCondition
+  ): PermissionsConnection
+
+  allRoles(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [RolesOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: RoleCondition
+  ): RolesConnection
+
+  allSystemAcls(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [SystemAclsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: SystemAclCondition
+  ): SystemAclsConnection
+
+  allUsers(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [UsersOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: UserCondition
+  ): UsersConnection
+
+  checkIdentity(email: String!, systemID: Int): CheckIdentityResponse
+  checkEmail(email: String!): Boolean!
+}
+
+type Mutation {
+  activateAccount: User
+  createUser(user: UserInput!): User
+  updateUser(id: Int!, user: UpdateUserInput!): User
+  sendEmail(email: String! type: EmailType!): Boolean!
+  resetUserPassword(password: String!): User
+  login(email: String!, password: String!): User
+  logout: Boolean!
+  createRole(role: RoleInput!): Role
+  updateRole(id: Int!, role: RoleInput!): Role
+  createBrokerage(brokerage: BrokerageInput!): Brokerage
+  updateBrokerage(id: Int!, brokerage: BrokerageInput!): Brokerage
+  updateBrokerageBroken(brokerageName: String!, phone: String!): Brokerage!
+  inviteUser(invite: InviteUserInput!): Boolean!
+  invitedUser(id: Int!, action: InvitationAction!, invitedUser: InvitedUserInput): InvitationStatus
+}
+
+enum EmailType {
+  ACTIVATE_ACCOUNT
+  FORGOT_PASSWORD
+}
+
+enum InvitationAction {
+  ACCEPT
+  REJECT
+}
+
+input UserInput {
+  email: String!
+  password: String!
+  firstName: String!
+  lastName: String!
+  phone: String
+  unit: String
+  streetNumber: String
+  streetName: String
+  city: String
+  province: String
+  postalCode: String
+  country: String
+}
+
+input UpdateUserInput {
+  email: String
+  password: String
+  firstName: String
+  lastName: String
+  phone: String
+  unit: String
+  streetNumber: String
+  streetName: String
+  city: String
+  province: String
+  postalCode: String
+  country: String
+  deleted: Boolean
+  oreaGuid: String
+  oreaVerified: Boolean
+  systemAcls: [SystemACLInput!]
+  brokerageAcls: [BrokerageACLInput!]
+  removeSystemAcls: [Int!]
+  removeBrokerageAcls: [Int!]
+}
+
+input RoleInput {
+  roleName: String!
+  roleCategory: RoleCategory!
+}
+
+input SystemACLInput {
+  systemId: Int!
+  roleId: Int!
+  resourceCategory: ResourceCategory
+  roleCategory: RoleCategory!
+}
+
+input BrokerageACLInput {
+  brokerageId: Int!
+  roleId: Int!
+  resourceCategory: ResourceCategory
+  roleCategory: RoleCategory!
+}
+
+input BrokerageInput {
+  brokerageName: String!
+  phone: String!
+  fax: String
+  unit: String
+  streetNumber: String!
+  streetName: String!
+  city: String!
+  province: String!
+  postalCode: String!
+  country: String!
+}
+
+input InviteUserInput {
+  email: String!
+  firstName: String
+  lastName: String
+  resourceId: Int!
+  roleId: Int!
+  resourceCategory: ResourceCategory!
+  roleCategory: RoleCategory!
+}
+
+input InvitedUserInput {
+  firstName: String!
+  lastName: String!
+  password: String!
+  phone: String
+}
+
+type CheckIdentityResponse {
+  foundUser: Boolean!
+  emailVerified: Boolean!
+  identityExists: Boolean
+  systemAcl: [SystemAcl]
+}
+
+
+type Brokerage {
+  nodeId: ID!
+  id: Int!
+  brokerageName: String
+  unit: String
+  streetNumber: String
+  streetName: String
+  city: String
+  province: String
+  postalCode: String
+  country: String
+  phone: String
+  fax: String
+  verified: Boolean
+  rejected: Boolean
+  createdAt: Time
+  updatedAt: Time
+
+  brokerageAclsByBrokerageId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [BrokerageAclsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: BrokerageAclCondition
+  ): BrokerageAclsConnection!
+}
+
+type BrokerageAcl {
+  nodeId: ID!
+  id: Int!
+  userId: Int!
+  brokerageId: Int!
+  roleId: Int!
+  resourceCategory: ResourceCategory
+  roleCategory: RoleCategory
+  createdAt: Time
+  userByUserId: User
+  brokerageByBrokerageId: Brokerage
+  roleByRoleId: Role
+}
+
+input BrokerageAclCondition {
+  id: Int
+  userId: Int
+  brokerageId: Int
+  roleId: Int
+  resourceCategory: ResourceCategory
+  roleCategory: RoleCategory
+  createdAt: Time
+}
+
+type BrokerageAclsConnection {
+  nodes: [BrokerageAcl]!
+  edges: [BrokerageAclsEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type BrokerageAclsEdge {
+  cursor: Cursor
+  node: BrokerageAcl
+}
+
+enum BrokerageAclsOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  USER_ID_ASC
+  USER_ID_DESC
+  BROKERAGE_ID_ASC
+  BROKERAGE_ID_DESC
+  ROLE_ID_ASC
+  ROLE_ID_DESC
+  RESOURCE_CATEGORY_ASC
+  RESOURCE_CATEGORY_DESC
+  ROLE_CATEGORY_ASC
+  ROLE_CATEGORY_DESC
+  CREATED_AT_ASC
+  CREATED_AT_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}
+
+input BrokerageCondition {
+  id: Int
+  brokerageName: String
+  unit: String
+  streetNumber: String
+  streetName: String
+  city: String
+  province: String
+  postalCode: String
+  country: String
+  phone: String
+  fax: String
+  verified: Boolean
+  rejected: Boolean
+  createdAt: Time
+  updatedAt: Time
+}
+
+type BrokeragesConnection {
+  nodes: [Brokerage]!
+  edges: [BrokeragesEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type BrokeragesEdge {
+  cursor: Cursor
+  node: Brokerage
+}
+
+enum BrokeragesOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  BROKERAGE_NAME_ASC
+  BROKERAGE_NAME_DESC
+  UNIT_ASC
+  UNIT_DESC
+  STREET_NUMBER_ASC
+  STREET_NUMBER_DESC
+  STREET_NAME_ASC
+  STREET_NAME_DESC
+  CITY_ASC
+  CITY_DESC
+  PROVINCE_ASC
+  PROVINCE_DESC
+  POSTAL_CODE_ASC
+  POSTAL_CODE_DESC
+  COUNTRY_ASC
+  COUNTRY_DESC
+  PHONE_ASC
+  PHONE_DESC
+  FAX_ASC
+  FAX_DESC
+  VERIFIED_ASC
+  VERIFIED_DESC
+  REJECTED_ASC
+  REJECTED_DESC
+  CREATED_AT_ASC
+  CREATED_AT_DESC
+  UPDATED_AT_ASC
+  UPDATED_AT_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}
+
+scalar Cursor
+enum InvitationStatus {
+  ACCEPTED
+  REJECTED
+  PENDING
+}
+
+type Invite {
+  nodeId: ID!
+  id: Int!
+  userId: Int
+  roleId: Int!
+  requestedById: Int!
+  resourceId: Int!
+  resourceCategory: ResourceCategory
+  roleCategory: RoleCategory
+  inviteStatus: InvitationStatus
+  firstName: String
+  lastName: String
+  email: String
+  expiry: Time
+  createdAt: Time
+  updatedAt: Time
+  userByUserId: User
+  roleByRoleId: Role
+  userByRequestedById: User
+}
+
+input InviteCondition {
+  id: Int
+  userId: Int
+  roleId: Int
+  requestedById: Int
+  resourceId: Int
+  resourceCategory: ResourceCategory
+  roleCategory: RoleCategory
+  inviteStatus: InvitationStatus
+  firstName: String
+  lastName: String
+  email: String
+  expiry: Time
+  createdAt: Time
+  updatedAt: Time
+}
+
+type InvitesConnection {
+  nodes: [Invite]!
+  edges: [InvitesEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type InvitesEdge {
+  cursor: Cursor
+  node: Invite
+}
+
+enum InvitesOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  USER_ID_ASC
+  USER_ID_DESC
+  ROLE_ID_ASC
+  ROLE_ID_DESC
+  REQUESTED_BY_ID_ASC
+  REQUESTED_BY_ID_DESC
+  RESOURCE_ID_ASC
+  RESOURCE_ID_DESC
+  RESOURCE_CATEGORY_ASC
+  RESOURCE_CATEGORY_DESC
+  ROLE_CATEGORY_ASC
+  ROLE_CATEGORY_DESC
+  INVITE_STATUS_ASC
+  INVITE_STATUS_DESC
+  FIRST_NAME_ASC
+  FIRST_NAME_DESC
+  LAST_NAME_ASC
+  LAST_NAME_DESC
+  EMAIL_ASC
+  EMAIL_DESC
+  EXPIRY_ASC
+  EXPIRY_DESC
+  CREATED_AT_ASC
+  CREATED_AT_DESC
+  UPDATED_AT_ASC
+  UPDATED_AT_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}
+
+type PageInfo {
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+  startCursor: Cursor
+  endCursor: Cursor
+}
+
+type Permission {
+  nodeId: ID!
+  id: Int!
+  label: String
+  action: String
+
+  rolePermissionsByPermissionId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [RolePermissionsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: RolePermissionCondition
+  ): RolePermissionsConnection!
+}
+
+input PermissionCondition {
+  id: Int
+  label: String
+  action: String
+}
+
+type PermissionsConnection {
+  nodes: [Permission]!
+  edges: [PermissionsEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type PermissionsEdge {
+  cursor: Cursor
+  node: Permission
+}
+
+enum PermissionsOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  LABEL_ASC
+  LABEL_DESC
+  ACTION_ASC
+  ACTION_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}
+
+enum ResourceCategory {
+  SYSTEM
+  BROKERAGE
+  TRANSACTION
+  DOCUMENT
+}
+
+type Role {
+  nodeId: ID!
+  id: Int!
+  roleCategory: RoleCategory
+  roleName: String
+  roleCode: String
+  createdAt: Time
+  updatedAt: Time
+
+  rolePermissionsByRoleId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [RolePermissionsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: RolePermissionCondition
+  ): RolePermissionsConnection!
+
+  brokerageAclsByRoleId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [BrokerageAclsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: BrokerageAclCondition
+  ): BrokerageAclsConnection!
+
+  systemAclsByRoleId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [SystemAclsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: SystemAclCondition
+  ): SystemAclsConnection!
+
+  invitesByRoleId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [InvitesOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: InviteCondition
+  ): InvitesConnection!
+}
+
+enum RoleCategory {
+  CP_ADMIN
+  ADMIN
+  AGENT
+}
+
+input RoleCondition {
+  id: Int
+  roleCategory: RoleCategory
+  roleName: String
+  roleCode: String
+  createdAt: Time
+  updatedAt: Time
+}
+
+type RolePermission {
+  nodeId: ID!
+  id: Int!
+  roleId: Int!
+  permissionId: Int!
+  permissionByRoleId: Permission
+  roleByPermissionId: Role
+}
+
+input RolePermissionCondition {
+  id: Int
+  roleId: Int
+  permissionId: Int
+}
+
+type RolePermissionsConnection {
+  nodes: [RolePermission]!
+  edges: [RolePermissionsEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type RolePermissionsEdge {
+  cursor: Cursor
+  node: RolePermission
+}
+
+enum RolePermissionsOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  ROLE_ID_ASC
+  ROLE_ID_DESC
+  PERMISSION_ID_ASC
+  PERMISSION_ID_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}
+
+type RolesConnection {
+  nodes: [Role]!
+  edges: [RolesEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type RolesEdge {
+  cursor: Cursor
+  node: Role
+}
+
+enum RolesOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  ROLE_CATEGORY_ASC
+  ROLE_CATEGORY_DESC
+  ROLE_NAME_ASC
+  ROLE_NAME_DESC
+  ROLE_CODE_ASC
+  ROLE_CODE_DESC
+  CREATED_AT_ASC
+  CREATED_AT_DESC
+  UPDATED_AT_ASC
+  UPDATED_AT_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}
+
+type System {
+  nodeId: ID!
+  id: Int!
+  systemName: String
+
+  systemAclsBySystemId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [SystemAclsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: SystemAclCondition
+  ): SystemAclsConnection!
+}
+
+type SystemAcl {
+  nodeId: ID!
+  id: Int!
+  userId: Int!
+  systemId: Int!
+  roleId: Int!
+  resourceCategory: ResourceCategory
+  roleCategory: RoleCategory
+  createdAt: Time
+  userByUserId: User
+  systemBySystemId: System
+  roleByRoleId: Role
+}
+
+input SystemAclCondition {
+  id: Int
+  userId: Int
+  systemId: Int
+  roleId: Int
+  resourceCategory: ResourceCategory
+  roleCategory: RoleCategory
+  createdAt: Time
+}
+
+type SystemAclsConnection {
+  nodes: [SystemAcl]!
+  edges: [SystemAclsEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type SystemAclsEdge {
+  cursor: Cursor
+  node: SystemAcl
+}
+
+enum SystemAclsOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  USER_ID_ASC
+  USER_ID_DESC
+  SYSTEM_ID_ASC
+  SYSTEM_ID_DESC
+  ROLE_ID_ASC
+  ROLE_ID_DESC
+  RESOURCE_CATEGORY_ASC
+  RESOURCE_CATEGORY_DESC
+  ROLE_CATEGORY_ASC
+  ROLE_CATEGORY_DESC
+  CREATED_AT_ASC
+  CREATED_AT_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}
+
+input SystemCondition {
+  id: Int
+  systemName: String
+}
+
+type SystemsConnection {
+  nodes: [System]!
+  edges: [SystemsEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type SystemsEdge {
+  cursor: Cursor
+  node: System
+}
+
+enum SystemsOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  SYSTEM_NAME_ASC
+  SYSTEM_NAME_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}
+
+scalar Time
+type User {
+  nodeId: ID!
+  id: Int!
+  email: String!
+  firstName: String
+  lastName: String
+  phone: String
+  unit: String
+  streetNumber: String
+  streetName: String
+  city: String
+  province: String
+  postalCode: String
+  country: String
+  createdAt: Time
+  updatedAt: Time
+  loggedInAt: Time
+  passwordChangedAt: Time
+  deleted: Boolean
+  emailVerified: Boolean
+  oreaVerified: Boolean
+  oreaGuid: String
+  temporaryToken: String
+
+  brokerageAclsByUserId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [BrokerageAclsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: BrokerageAclCondition
+  ): BrokerageAclsConnection!
+
+  systemAclsByUserId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [SystemAclsOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: SystemAclCondition
+  ): SystemAclsConnection!
+
+  invitesByUserId(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [InvitesOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: InviteCondition
+  ): InvitesConnection!
+
+  invitesByRequestedById(
+    first: Int
+    last: Int
+    offset: Int
+    before: Cursor
+    after: Cursor
+    orderBy: [InvitesOrderBy!] = [PRIMARY_KEY_ASC]
+    condition: InviteCondition
+  ): InvitesConnection!
+}
+
+input UserCondition {
+  id: Int
+  email: String
+  password: String
+  firstName: String
+  lastName: String
+  phone: String
+  unit: String
+  streetNumber: String
+  streetName: String
+  city: String
+  province: String
+  postalCode: String
+  country: String
+  createdAt: Time
+  updatedAt: Time
+  loggedInAt: Time
+  passwordChangedAt: Time
+  deleted: Boolean
+  emailVerified: Boolean
+  oreaVerified: Boolean
+  oreaGuid: String
+  temporaryToken: String
+}
+
+type UsersConnection {
+  nodes: [User]!
+  edges: [UsersEdge!]!
+  pageInfo: PageInfo!
+  totalCount: Int
+}
+
+type UsersEdge {
+  cursor: Cursor
+  node: User
+}
+
+enum UsersOrderBy {
+  NATURAL
+  ID_ASC
+  ID_DESC
+  EMAIL_ASC
+  EMAIL_DESC
+  PASSWORD_ASC
+  PASSWORD_DESC
+  FIRST_NAME_ASC
+  FIRST_NAME_DESC
+  LAST_NAME_ASC
+  LAST_NAME_DESC
+  PHONE_ASC
+  PHONE_DESC
+  UNIT_ASC
+  UNIT_DESC
+  STREET_NUMBER_ASC
+  STREET_NUMBER_DESC
+  STREET_NAME_ASC
+  STREET_NAME_DESC
+  CITY_ASC
+  CITY_DESC
+  PROVINCE_ASC
+  PROVINCE_DESC
+  POSTAL_CODE_ASC
+  POSTAL_CODE_DESC
+  COUNTRY_ASC
+  COUNTRY_DESC
+  CREATED_AT_ASC
+  CREATED_AT_DESC
+  UPDATED_AT_ASC
+  UPDATED_AT_DESC
+  LOGGED_IN_AT_ASC
+  LOGGED_IN_AT_DESC
+  PASSWORD_CHANGED_AT_ASC
+  PASSWORD_CHANGED_AT_DESC
+  DELETED_ASC
+  DELETED_DESC
+  EMAIL_VERIFIED_ASC
+  EMAIL_VERIFIED_DESC
+  OREA_VERIFIED_ASC
+  OREA_VERIFIED_DESC
+  OREA_GUID_ASC
+  OREA_GUID_DESC
+  TEMPORARY_TOKEN_ASC
+  TEMPORARY_TOKEN_DESC
+  PRIMARY_KEY_ASC
+  PRIMARY_KEY_DESC
+}

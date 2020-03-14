@@ -1,0 +1,26 @@
+query getAgents($systemAclCondition: SystemAclCondition, $brokerageAclCondition: BrokerageAclCondition) {
+  agents: allSystemAcls(condition: $systemAclCondition) @connection(key: "agentsTable") {
+    nodes {
+      userByUserId {
+        id
+        firstName
+        lastName
+        email
+        phone
+        createdAt
+        loggedInAt
+        oreaVerified
+        brokerageAclsByUserId (condition: $brokerageAclCondition) {
+          nodes {
+            id
+            brokerageByBrokerageId {
+              id
+              brokerageName
+            }
+          }
+        }
+      }
+    }
+    totalCount
+  }
+}

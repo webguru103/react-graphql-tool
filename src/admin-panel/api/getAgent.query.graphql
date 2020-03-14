@@ -1,0 +1,20 @@
+query GetAgent($userCondition: UserCondition, $agentCondition: BrokerageAclCondition) {
+  user: allUsers(condition: $userCondition) {
+    nodes {
+      id
+      email
+      firstName
+      lastName
+      phone
+      brokerageAclsByUserId(condition: $agentCondition) {
+        nodes {
+          id
+          brokerageByBrokerageId {
+            id
+            brokerageName
+          }
+        }
+      }
+    }
+  }
+}

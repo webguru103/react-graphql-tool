@@ -1,0 +1,9 @@
+query GetAdminName($condition: UserCondition){
+  users: allUsers(condition: $condition) {
+    nodes {
+      id
+      firstName
+      lastName
+    }
+  }
+}

@@ -1,0 +1,25 @@
+query getCpUsers($systemAclCondition: SystemAclCondition, $inviteCondition: InviteCondition, $invitesOrderBy: [InvitesOrderBy!]) {
+  cpUsers: allSystemAcls(condition: $systemAclCondition) @connection(key: "cpUsersTable") {
+    nodes {
+      id
+      userByUserId {
+        id
+        firstName
+        lastName
+        email
+        loggedInAt
+        invitesByUserId (condition: $inviteCondition, orderBy: $invitesOrderBy) {
+          nodes {
+            createdAt
+            userByRequestedById {
+              id
+              firstName
+              lastName
+            }
+          }
+        }
+      }
+    }
+    totalCount
+  }
+}

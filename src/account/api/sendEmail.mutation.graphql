@@ -1,0 +1,3 @@
+mutation SendEmail($email: Email!, $type: EmailType!) {
+  sendEmail(email: $email, type: $type)
+}

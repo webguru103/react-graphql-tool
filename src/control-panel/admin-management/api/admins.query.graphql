@@ -1,0 +1,24 @@
+query getAdmins($systemAclCondition: SystemAclCondition, $brokerageAclCondition: BrokerageAclCondition) {
+  admins: allSystemAcls(condition: $systemAclCondition)  @connection(key: "adminsTable") {
+    nodes {
+      userByUserId {
+        id
+        firstName
+        lastName
+        email
+        phone
+        createdAt
+        loggedInAt
+        brokerageAclsByUserId (condition: $brokerageAclCondition) {
+          nodes {
+            brokerageByBrokerageId {
+              id
+              brokerageName
+            }
+          }
+        }
+      }
+    }
+    totalCount
+  }
+}

@@ -1,0 +1,8 @@
+query getFormGroups {
+  formGroups: allFormGroups {
+   nodes {
+     id
+     formGroupName
+    }
+  }
+}

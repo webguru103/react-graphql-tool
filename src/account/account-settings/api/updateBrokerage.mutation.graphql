@@ -1,0 +1,13 @@
+mutation UpdateBrokerage($id: ID!, $brokerage: BrokerageInput!) {
+  brokerage: updateBrokerage(id: $id, brokerage: $brokerage) {
+    name
+    phone
+    unit,
+    streetNumber,
+    streetName,
+    city,
+    province,
+    postalCode,
+    country,
+  }
+}

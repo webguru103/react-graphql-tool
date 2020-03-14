@@ -1,0 +1,7 @@
+query CheckIdentity($email: Email!, $systemId: Int!) {
+  checkIdentityResponse: checkIdentity(email: $email, systemID: $systemId) {
+    foundUser
+    emailVerified
+    identityExists
+  }
+}

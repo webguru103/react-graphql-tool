@@ -1,0 +1,50 @@
+[
+  {
+    "id": "new-form",
+    "defaultMessage": "New Form"
+  },
+  {
+    "id": "upload-label",
+    "defaultMessage": "Upload PDF"
+  },
+  {
+    "id": "form-name",
+    "defaultMessage": "Form Name"
+  },
+  {
+    "id": "no-pdf-uploaded",
+    "defaultMessage": "Please upload the form base"
+  },
+  {
+    "id": "start-editing",
+    "defaultMessage": "Start Editing"
+  },
+  {
+    "id": "empty-form-name",
+    "defaultMessage": "Please input the form name"
+  },
+  {
+    "id": "form-name-too-long",
+    "defaultMessage": "Sorry, name must be less than 64 characters"
+  },
+  {
+    "id": "form-updated",
+    "defaultMessage": "Form updated"
+  },
+  {
+    "id": "network-error",
+    "defaultMessage": "Some network error occurred, try again later."
+  },
+  {
+    "id": "form-name-empty",
+    "defaultMessage": "Should not be empty"
+  },
+  {
+    "id": "active",
+    "defaultMessage": "Active"
+  },
+  {
+    "id": "inactive",
+    "defaultMessage": "Inactive"
+  }
+]

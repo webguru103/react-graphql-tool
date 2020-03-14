@@ -1,0 +1,30 @@
+[
+  {
+    "id": "download-error",
+    "defaultMessage": "Failed to download document(s)"
+  },
+  {
+    "id": "no-signing-sessions",
+    "defaultMessage": "You have no signing sessions yet."
+  },
+  {
+    "id": "start-signing",
+    "defaultMessage": "Start Signing"
+  },
+  {
+    "id": "started-at",
+    "defaultMessage": "Started"
+  },
+  {
+    "id": "card-completed",
+    "defaultMessage": "Completed"
+  },
+  {
+    "id": "card-viewed",
+    "defaultMessage": "Viewed"
+  },
+  {
+    "id": "card-not-viewed",
+    "defaultMessage": "Not Viewed"
+  }
+]

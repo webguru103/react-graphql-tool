@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Editor TopNavbar renders 1`] = `
+<div>
+  <div>
+    <div>
+      <button
+        class="MuiButtonBase-root-7 MuiIconButton-root-1"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label-6"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root-10"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0z"
+              fill="none"
+            />
+            <path
+              d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+            />
+          </svg>
+        </span>
+      </button>
+      <div>
+        <div>
+          <div
+            class="TemplateBreadcrumbC-groupName-19"
+          >
+            Mock Group Name
+          </div>
+          <div
+            class="TemplateBreadcrumbC-formName-20"
+          >
+            <span>
+              Test Form
+            </span>
+            <span />
+          </div>
+        </div>
+        <div />
+      </div>
+    </div>
+    <div>
+      <button
+        class="MuiButtonBase-root-7 MuiButtonBase-disabled-8 MuiButton-root-25 MuiButton-contained-36 MuiButton-containedSecondary-38 ButtonC-secondary-23 MuiButton-raised-39 MuiButton-raisedSecondary-41 MuiButton-disabled-45 ButtonC-disabled-24 ButtonC-button-21"
+        data-testid="discard-draft"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-26"
+        >
+          <span>
+            Discard Draft
+          </span>
+        </span>
+      </button>
+      <button
+        class="MuiButtonBase-root-7 MuiButton-root-25 MuiButton-contained-36 MuiButton-containedPrimary-37 ButtonC-primary-22 MuiButton-raised-39 MuiButton-raisedPrimary-40 ButtonC-button-21"
+        data-testid="publish-form"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-26"
+        >
+          <span>
+            Publish
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

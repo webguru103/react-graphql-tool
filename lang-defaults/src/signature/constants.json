@@ -1,0 +1,10 @@
+[
+  {
+    "id": "wrong-username-password",
+    "defaultMessage": "Wrong Signature ID"
+  },
+  {
+    "id": "wrong-detail",
+    "defaultMessage": "Can't get the certificate details! Try to input the Signature ID"
+  }
+]

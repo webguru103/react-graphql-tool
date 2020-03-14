@@ -1,0 +1,6 @@
+mutation DeleteTransaction($id: ID!, $transaction: TransactionInput!) {
+  deleteTransaction: updateTransaction(id: $id, transaction: $transaction) {
+    id
+    deleted
+  }
+}

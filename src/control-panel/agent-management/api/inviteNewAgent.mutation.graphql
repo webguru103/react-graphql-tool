@@ -1,0 +1,4 @@
+mutation InviteNewAgent($invite: InviteUserInput!) {
+  inviteUser(invite: $invite)
+}
+

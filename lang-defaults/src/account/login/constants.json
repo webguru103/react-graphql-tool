@@ -1,0 +1,26 @@
+[
+  {
+    "id": "account-not-verified",
+    "defaultMessage": "We noticed you still haven't verified your email address. We have sent another verification email. Please check your inbox."
+  },
+  {
+    "id": "user-not-exists",
+    "defaultMessage": "Sorry, we couldn’t recognize this email"
+  },
+  {
+    "id": "email-not-valid",
+    "defaultMessage": "Please input a valid email address."
+  },
+  {
+    "id": "email-empty",
+    "defaultMessage": "Please input your email address"
+  },
+  {
+    "id": "verify-email",
+    "defaultMessage": "Verify your email"
+  },
+  {
+    "id": "network-message",
+    "defaultMessage": "Some error occurred, try again later"
+  }
+]

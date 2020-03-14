@@ -1,0 +1,3 @@
+mutation InvitedUser($id: Int!, $action: InvitationAction!, $invitedUser: InvitedUserInput) {
+  status: invitedUser(id: $id, action: $action, invitedUser: $invitedUser)
+}

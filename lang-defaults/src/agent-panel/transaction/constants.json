@@ -1,0 +1,54 @@
+[
+  {
+    "id": "error-renaming-transaction",
+    "defaultMessage": "Sorry, error renaming transaction!"
+  },
+  {
+    "id": "error-deleting-transaction",
+    "defaultMessage": "Sorry, error deleting transaction!"
+  },
+  {
+    "id": "add-new-name",
+    "defaultMessage": "Please add a new name"
+  },
+  {
+    "id": "rename-dialog-submit",
+    "defaultMessage": "Done"
+  },
+  {
+    "id": "rename-item-dialog-header",
+    "defaultMessage": "Rename Item:"
+  },
+  {
+    "id": "table-head-name",
+    "defaultMessage": "Name"
+  },
+  {
+    "id": "table-head-owner",
+    "defaultMessage": "Owner"
+  },
+  {
+    "id": "table-head-last-modified",
+    "defaultMessage": "Last Modified"
+  },
+  {
+    "id": "menu-rename",
+    "defaultMessage": "Rename"
+  },
+  {
+    "id": "menu-copy",
+    "defaultMessage": "Copy"
+  },
+  {
+    "id": "menu-delete",
+    "defaultMessage": "Delete"
+  },
+  {
+    "id": "empty-transaction-name",
+    "defaultMessage": "Enter transaction name"
+  },
+  {
+    "id": "no-form-selected",
+    "defaultMessage": "Select at least one form"
+  }
+]

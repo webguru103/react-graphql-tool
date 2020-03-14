@@ -1,0 +1,30 @@
+mutation login($email: Email!, $password: String!) {
+  user: login(email: $email, password: $password) {
+    id
+    email
+    firstName
+    lastName
+    phone
+    createdAt
+    updatedAt
+    loggedInAt
+    passwordChangedAt
+    emailVerified
+    oreaVerified
+    temporaryToken
+    brokerageAclsByUserId {
+      nodes {
+        brokerageId
+        roleId
+        roleCategory
+      }
+    }
+    systemAclsByUserId {
+      nodes {
+        systemId
+        roleId
+        roleCategory
+      }
+    }
+  }
+}

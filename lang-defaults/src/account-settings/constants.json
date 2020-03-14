@@ -1,0 +1,14 @@
+[
+  {
+    "id": "first-name-too-long",
+    "defaultMessage": "First name is too long, must be less than or equal to 40 characters"
+  },
+  {
+    "id": "last-name-too-long",
+    "defaultMessage": "Last name is too long, must be less than or equal to 40 characters"
+  },
+  {
+    "id": "name-too-long",
+    "defaultMessage": "Name is too long, first and last name must be each less than 40 characters"
+  }
+]

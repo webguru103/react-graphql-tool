@@ -1,0 +1,15 @@
+query GetAdminUserBrokerages($condition: BrokerageAclCondition) {
+  adminUserBrokerages: allBrokerageAcls (condition: $condition) {
+    nodes {
+      id
+      brokerageByBrokerageId {
+        id
+        brokerageName
+      }
+      roleByRoleId {
+        roleName
+      }
+    }
+    totalCount
+  }
+}

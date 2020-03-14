@@ -1,0 +1,1209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`View Agents renders 1`] = `
+<div>
+  <div
+    class="ReactTable -highlight"
+  >
+    <div
+      class="rt-table"
+      role="grid"
+    >
+      <div
+        class="rt-thead -header"
+        style="min-width: 700px;"
+      >
+        <div
+          class="rt-tr"
+          role="row"
+        >
+          <div
+            class="rt-th rt-resizable-header -cursor-pointer"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <div
+              class="rt-resizable-header-content"
+            >
+              Agent
+              <button
+                aria-label="Filter"
+                class="MuiButtonBase-root-7 MuiIconButton-root-1"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label-6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-10"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="rt-resizer"
+            />
+          </div>
+          <div
+            class="rt-th rt-resizable-header -cursor-pointer"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <div
+              class="rt-resizable-header-content"
+            >
+              Phone
+            </div>
+            <div
+              class="rt-resizer"
+            />
+          </div>
+          <div
+            class="rt-th rt-resizable-header -cursor-pointer"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <div
+              class="rt-resizable-header-content"
+            >
+              Affiliation
+              <button
+                aria-label="Filter"
+                class="MuiButtonBase-root-7 MuiIconButton-root-1"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label-6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-10"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="rt-resizer"
+            />
+          </div>
+          <div
+            class="rt-th rt-resizable-header -cursor-pointer"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <div
+              class="rt-resizable-header-content"
+            >
+              Brokerage Office(s)
+              <button
+                aria-label="Filter"
+                class="MuiButtonBase-root-7 MuiIconButton-root-1"
+                tabindex="0"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label-6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-10"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                    />
+                    <path
+                      d="M0 0h24v24H0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+            <div
+              class="rt-resizer"
+            />
+          </div>
+          <div
+            class="rt-th rt-resizable-header -cursor-pointer"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <div
+              class="rt-resizable-header-content"
+            >
+              Created At
+            </div>
+            <div
+              class="rt-resizer"
+            />
+          </div>
+          <div
+            class="rt-th rt-resizable-header -cursor-pointer"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <div
+              class="rt-resizable-header-content"
+            >
+              Last Login
+            </div>
+            <div
+              class="rt-resizer"
+            />
+          </div>
+          <div
+            class="rt-th rt-resizable-header"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <div
+              class="rt-resizable-header-content"
+            >
+              Action
+            </div>
+            <div
+              class="rt-resizer"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        class="rt-thead -filters"
+        style="display: none; min-width: 700px;"
+      >
+        <div
+          class="rt-tr"
+          role="row"
+        >
+          <div
+            class="rt-th"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <input />
+          </div>
+          <div
+            class="rt-th"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          />
+          <div
+            class="rt-th"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <input />
+          </div>
+          <div
+            class="rt-th"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          >
+            <input />
+          </div>
+          <div
+            class="rt-th"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          />
+          <div
+            class="rt-th"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          />
+          <div
+            class="rt-th"
+            role="columnheader"
+            style="flex: 100 0 auto; width: 100px;"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+      <div
+        class="rt-tbody"
+        style="min-width: 700px;"
+      >
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -odd"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -even"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -odd"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -even"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -odd"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -even"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -odd"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -even"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -odd"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="rt-tr-group"
+          role="rowgroup"
+        >
+          <div
+            class="rt-tr -padRow -even"
+            role="row"
+          >
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+            <div
+              class="rt-td"
+              role="gridcell"
+              style="flex: 100 0 auto; width: 100px;"
+            >
+              <span>
+                 
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="pagination-bottom"
+    >
+      <div
+        class="Pagination-paginationContainer-19"
+      >
+        <div
+          class="Pagination-pagination-20"
+        >
+          <div
+            class="MuiToolbar-root-32 MuiToolbar-regular-34 MuiToolbar-gutters-33 MuiTablePagination-toolbar-23"
+          >
+            <div
+              class="MuiTablePagination-spacer-24"
+            />
+            <span
+              class="MuiTypography-root-36 MuiTypography-caption-46 MuiTablePagination-caption-25"
+            >
+              Rows per page:
+            </span>
+            <div
+              class="MuiInputBase-root-69 MuiTablePagination-input-29"
+            >
+              <div
+                class="MuiSelect-root-62 MuiTablePagination-selectRoot-26"
+              >
+                <div
+                  aria-haspopup="true"
+                  aria-pressed="false"
+                  class="MuiSelect-select-63 MuiTablePagination-select-27 Pagination-paginationSelect-21 MuiSelect-selectMenu-66 MuiInputBase-input-79"
+                  data-testid="select"
+                  role="button"
+                  tabindex="0"
+                >
+                  10
+                </div>
+                <input
+                  type="hidden"
+                  value="10"
+                />
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-10 MuiSelect-icon-68 MuiTablePagination-selectIcon-28"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M7 10l5 5 5-5z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <span
+              class="MuiTypography-root-36 MuiTypography-caption-46 MuiTablePagination-caption-25"
+            >
+              0-0 of 0
+            </span>
+            <div
+              class="PaginationActions-root-90"
+            >
+              <button
+                aria-label="First Page"
+                class="MuiButtonBase-root-7 MuiButtonBase-disabled-8 MuiIconButton-root-1 MuiIconButton-disabled-5"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label-6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-10"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18.41 16.59L13.82 12l4.59-4.59L17 6l-6 6 6 6zM6 6h2v12H6z"
+                    />
+                    <path
+                      d="M24 24H0V0h24v24z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                aria-label="Previous Page"
+                class="MuiButtonBase-root-7 MuiButtonBase-disabled-8 MuiIconButton-root-1 MuiIconButton-disabled-5"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label-6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-10"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z"
+                    />
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                aria-label="Next Page"
+                class="MuiButtonBase-root-7 MuiButtonBase-disabled-8 MuiIconButton-root-1 MuiIconButton-disabled-5"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label-6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-10"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z"
+                    />
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+              <button
+                aria-label="Last Page"
+                class="MuiButtonBase-root-7 MuiButtonBase-disabled-8 MuiIconButton-root-1 MuiIconButton-disabled-5"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <span
+                  class="MuiIconButton-label-6"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-10"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M5.59 7.41L10.18 12l-4.59 4.59L7 18l6-6-6-6zM16 6h2v12h-2z"
+                    />
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="rt-noData"
+    >
+      <span>
+        Nothing to display!
+      </span>
+    </div>
+    <div
+      class="-loading"
+    >
+      <div
+        class="-loading-inner"
+      >
+        <div
+          class="MuiCircularProgress-root-91 MuiCircularProgress-colorPrimary-94 MuiCircularProgress-indeterminate-93"
+          role="progressbar"
+          style="width: 40px; height: 40px;"
+        >
+          <svg
+            class="MuiCircularProgress-svg-96"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              class="MuiCircularProgress-circle-97 MuiCircularProgress-circleIndeterminate-99"
+              cx="44"
+              cy="44"
+              fill="none"
+              r="20.2"
+              stroke-width="3.6"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

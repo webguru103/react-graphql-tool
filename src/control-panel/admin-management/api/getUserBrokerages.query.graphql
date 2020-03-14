@@ -1,0 +1,15 @@
+query GetUserBrokerages($condition: BrokerageAclCondition) {
+  userBrokerages: allBrokerageAcls (condition: $condition) {
+    nodes {
+      id
+      brokerageByBrokerageId {
+        id
+        brokerageName
+      }
+      roleByRoleId {
+        roleName
+      }
+    }
+    totalCount
+  }
+}

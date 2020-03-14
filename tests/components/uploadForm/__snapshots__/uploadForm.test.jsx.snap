@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UploadForm renders 1`] = `
+<div>
+  <div
+    class="UploadFormC-dropzoneContainer-6"
+    data-testid="uploadForm"
+  >
+    <div
+      aria-disabled="false"
+      class="Dropzone-root-20"
+      data-testid="dropzone"
+      style="position: relative;"
+    >
+      <div
+        class="UploadFormC-dropzone-1 UploadFormC-paddingAnimationDropzoneOff-8"
+      >
+        <svg
+          fill="none"
+          height="34"
+          viewBox="0 0 37 34"
+          width="37"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M27.75 9.25c-.077 0-.154 0-.23.003C26.445 3.954 21.76 0 16.187 0 9.802 0 4.624 5.177 4.624 11.563c0 .462.027.922.081 1.377a7.708 7.708 0 0 0 3.002 14.81 1.542 1.542 0 1 0 0-3.083 4.625 4.625 0 0 1-.934-9.156 1.542 1.542 0 0 0 1.187-1.884 8.48 8.48 0 0 1 8.227-10.543c4.49 0 8.194 3.5 8.463 7.959.057.936.93 1.606 1.85 1.417a6.167 6.167 0 1 1 1.25 12.207 1.542 1.542 0 1 0-.001 3.083 9.25 9.25 0 0 0 0-18.5zm-8.48 22.958V20.513L21 22.242a1.542 1.542 0 1 0 2.18-2.18l-3.27-3.27a3.083 3.083 0 0 0-4.361 0l-3.27 3.27a1.542 1.542 0 0 0 2.18 2.18l1.729-1.729v11.695a1.542 1.542 0 0 0 3.083 0z"
+            fill="#7A49DF"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <span>
+          Upload PDF, JPG, PNG
+        </span>
+      </div>
+      <input
+        accept="application/pdf"
+        autocomplete="off"
+        style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; opacity: 0.00001; pointer-events: none;"
+        type="file"
+      />
+    </div>
+    
+  </div>
+</div>
+`;

@@ -1,0 +1,13 @@
+query GetRoles($id: ID!) {
+  user: user(id: $id) {
+    id
+    message
+    userRoles {
+      id
+      roleCode
+      brokerage
+      user
+      role
+    }
+  }
+}

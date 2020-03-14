@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sign-up-agent",
+    "defaultMessage": "Agent of {brokerageName}"
+  },
+  {
+    "id": "sign-up-admin",
+    "defaultMessage": "{roleName} of {brokerageName}"
+  },
+  {
+    "id": "sign-up-cp-user",
+    "defaultMessage": "Control Panel User"
+  }
+]

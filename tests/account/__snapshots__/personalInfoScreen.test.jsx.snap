@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Personal info screen should render 1`] = `
+<div>
+  <div
+    class="PersonalInfoScreenC-screenContainer-1"
+  >
+    <p
+      class="PersonalInfoScreenC-screenTitle-2"
+    >
+      Personal Information
+    </p>
+    <div
+      class="MuiFormControl-root-8 MuiFormControl-marginNormal-9 MuiFormControl-fullWidth-11"
+      data-testid="first-name"
+    >
+      <label
+        class="MuiFormLabel-root-19 MuiFormLabel-focused-20 MuiFormLabel-required-24 MuiInputLabel-root-12 MuiInputLabel-formControl-13 MuiInputLabel-animated-16 MuiInputLabel-shrink-15"
+        data-shrink="true"
+        for="FirstName"
+      >
+        First Name
+        <span
+          class="MuiFormLabel-asterisk-25"
+        >
+           *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root-39 MuiInput-root-26 MuiInput-underline-30 MuiInputBase-fullWidth-48 MuiInput-fullWidth-33 MuiInputBase-focused-41 MuiInput-focused-28 MuiInputBase-formControl-40 MuiInput-formControl-27"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input-49 MuiInput-input-34"
+          id="FirstName"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="MuiFormControl-root-8 MuiFormControl-marginNormal-9 MuiFormControl-fullWidth-11"
+      data-testid="last-name"
+    >
+      <label
+        class="MuiFormLabel-root-19 MuiFormLabel-required-24 MuiInputLabel-root-12 MuiInputLabel-formControl-13 MuiInputLabel-animated-16"
+        data-shrink="false"
+        for="LastName"
+      >
+        Last Name
+        <span
+          class="MuiFormLabel-asterisk-25"
+        >
+           *
+        </span>
+      </label>
+      <div
+        class="MuiInputBase-root-39 MuiInput-root-26 MuiInput-underline-30 MuiInputBase-fullWidth-48 MuiInput-fullWidth-33 MuiInputBase-formControl-40 MuiInput-formControl-27"
+      >
+        <input
+          aria-invalid="false"
+          class="MuiInputBase-input-49 MuiInput-input-34"
+          id="LastName"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="MuiFormControl-root-8 MuiFormControl-marginNormal-9 MuiFormControl-fullWidth-11 PersonalInfoScreenC-phoneNumber-7"
+    >
+      <label
+        class="MuiFormLabel-root-19 MuiInputLabel-root-12 MuiInputLabel-formControl-13 MuiInputLabel-animated-16"
+        data-shrink="false"
+        for="phone-number"
+      >
+        Phone Number
+      </label>
+      <div
+        class="MuiInputBase-root-39 MuiInput-root-26 MuiInput-underline-30 MuiInputBase-fullWidth-48 MuiInput-fullWidth-33 MuiInputBase-formControl-40 MuiInput-formControl-27"
+      >
+        <input
+          aria-invalid="false"
+          autocomplete="current-phone"
+          class="MuiInputBase-input-49 MuiInput-input-34"
+          id="phone-number"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      class="PersonalInfoScreenC-controlButtons-4"
+    >
+      <span
+        class="PersonalInfoScreenC-requiredText-6"
+      >
+        * Required
+      </span>
+      <button
+        class="MuiButtonBase-root-86 MuiButton-root-60 MuiButton-contained-71 MuiButton-containedSecondary-73 ButtonC-secondary-58 MuiButton-raised-74 MuiButton-raisedSecondary-76 ButtonC-button-56 PersonalInfoScreenC-controlButton-3"
+        data-testid=""
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-61"
+        >
+          Back
+        </span>
+      </button>
+      <button
+        class="MuiButtonBase-root-86 MuiButtonBase-disabled-87 MuiButton-root-60 MuiButton-contained-71 MuiButton-containedPrimary-72 ButtonC-primary-57 MuiButton-raised-74 MuiButton-raisedPrimary-75 MuiButton-disabled-80 ButtonC-disabled-59 ButtonC-button-56 PersonalInfoScreenC-controlButton-3"
+        data-testid="button-next"
+        disabled=""
+        tabindex="-1"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-61"
+        >
+          Next
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

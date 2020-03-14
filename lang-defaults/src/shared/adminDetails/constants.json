@@ -1,0 +1,34 @@
+[
+  {
+    "id": "remove-agent-from-bo",
+    "defaultMessage": "Remove Admin From BO"
+  },
+  {
+    "id": "remove-access-for-admin",
+    "defaultMessage": "Remove access"
+  },
+  {
+    "id": "cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "confirm",
+    "defaultMessage": "Confirm"
+  },
+  {
+    "id": "remove-agent",
+    "defaultMessage": "Remove Admin"
+  },
+  {
+    "id": "select-brokerage",
+    "defaultMessage": "Please select brokerage"
+  },
+  {
+    "id": "add-admin-access",
+    "defaultMessage": "Add admin access"
+  },
+  {
+    "id": "add-access-for-admin",
+    "defaultMessage": "Add access"
+  }
+]

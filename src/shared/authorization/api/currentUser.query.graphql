@@ -1,0 +1,72 @@
+query User($condition: UserCondition!, $inviteCondition: InviteCondition) {
+  user: allUsers(condition: $condition) {
+    nodes {
+      id
+      email
+      firstName
+      lastName
+      phone
+      unit
+      streetNumber
+      streetName
+      city
+      province
+      postalCode
+      country
+      createdAt
+      updatedAt
+      loggedInAt
+      passwordChangedAt
+      emailVerified
+      oreaVerified
+      datzUserId
+      brokerageAclsByUserId {
+        nodes {
+          roleId
+          roleCategory
+          brokerageByBrokerageId {
+            id
+            brokerageName
+            unit
+            streetNumber
+            streetName
+            city
+            phone
+            fax
+          }
+        }
+      }
+      systemAclsByUserId {
+        nodes {
+          roleId
+          roleCategory
+          systemBySystemId {
+            id
+            systemName
+          }
+        }
+      }
+      invitesByUserId (condition: $inviteCondition){
+        nodes {
+          id
+          inviteStatus
+          firstName
+          lastName
+          resourceId
+        }
+      }
+      userStampsByUserId {
+        userSignature {
+          id
+          stamp
+          stampType
+        }
+        userInitial {
+          id
+          stamp
+          stampType
+        }
+      }
+    }
+  }
+}

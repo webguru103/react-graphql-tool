@@ -1,0 +1,17 @@
+query GetDocuments($id: ID!, $pagination: Pagination!) {
+  transaction: transaction(id: $id) {
+    id
+    name
+    documents(pagination: $pagination) @connection(key: "documents") {
+      pageCount
+      list {
+        ... on Document {
+          id
+          name
+          createdAt
+          updatedAt
+        }
+      }
+    }
+  }
+}

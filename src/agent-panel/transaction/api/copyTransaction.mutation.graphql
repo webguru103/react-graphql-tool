@@ -1,0 +1,8 @@
+mutation CopyTransaction($id: ID!) {
+  copyTransaction: copyTransaction(id: $id) {
+    id
+    name
+    createdAt
+    updatedAt
+  }
+}

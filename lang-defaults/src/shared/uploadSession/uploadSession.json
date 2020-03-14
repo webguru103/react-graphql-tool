@@ -1,0 +1,14 @@
+[
+  {
+    "id": "processing",
+    "defaultMessage": "Processing"
+  },
+  {
+    "id": "wrong-file-format",
+    "defaultMessage": "Unsupported format: {fileName}. Only PDF is supported."
+  },
+  {
+    "id": "file-too-large",
+    "defaultMessage": "File too large: {fileName}. File needs to be smaller than {size}."
+  }
+]

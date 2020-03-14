@@ -1,0 +1,178 @@
+[
+  {
+    "id": "sign-up",
+    "defaultMessage": "Sign Up"
+  },
+  {
+    "id": "sign-up-as",
+    "defaultMessage": "Sign up as"
+  },
+  {
+    "id": "invited-to-sign-up",
+    "defaultMessage": "You have been invited to sign up as:"
+  },
+  {
+    "id": "activating-account",
+    "defaultMessage": "Activating your account"
+  },
+  {
+    "id": "account-activated",
+    "defaultMessage": "Account activated"
+  },
+  {
+    "id": "could-not-activate",
+    "defaultMessage": "Could not activate account"
+  },
+  {
+    "id": "please-wait",
+    "defaultMessage": "Please wait..."
+  },
+  {
+    "id": "successfully-activated",
+    "defaultMessage": "Your account has been successfully activated. You can now log in."
+  },
+  {
+    "id": "email-already-registered",
+    "defaultMessage": "You already have a DealTap account. Confirm your password to continue."
+  },
+  {
+    "id": "email-already-taken",
+    "defaultMessage": "This email is already taken. Please try another one."
+  },
+  {
+    "id": "empty-email",
+    "defaultMessage": "The email is empty"
+  },
+  {
+    "id": "invalid-email",
+    "defaultMessage": "The email is invalid"
+  },
+  {
+    "id": "network-error",
+    "defaultMessage": "Something went wrong, please try again later..."
+  },
+  {
+    "id": "wrong-username-password",
+    "defaultMessage": "Email or password is wrong"
+  },
+  {
+    "id": "email-empty",
+    "defaultMessage": "Please input your email address"
+  },
+  {
+    "id": "email-doesnt-exist",
+    "defaultMessage": "Email address does not exist"
+  },
+  {
+    "id": "email-resent",
+    "defaultMessage": "The email has been sent again. Please check your email"
+  },
+  {
+    "id": "request-error",
+    "defaultMessage": "Sorry, there was an error processing your request!"
+  },
+  {
+    "id": "request-being-processed",
+    "defaultMessage": "Your request is being processed."
+  },
+  {
+    "id": "brokerage-accepted",
+    "defaultMessage": "Invitation accepted"
+  },
+  {
+    "id": "could-not-accept-brokerage",
+    "defaultMessage": "Invitation not accepted"
+  },
+  {
+    "id": "brokerage-rejected",
+    "defaultMessage": "Invitation rejected"
+  },
+  {
+    "id": "could-not-reject-brokerage",
+    "defaultMessage": "Invitation not rejected"
+  },
+  {
+    "id": "could-not-find-invite",
+    "defaultMessage": "No invite found."
+  },
+  {
+    "id": "link-expired",
+    "defaultMessage": "It appears this link has already expired."
+  },
+  {
+    "id": "joined-brokerage",
+    "defaultMessage": "Joined Brokerage Office"
+  },
+  {
+    "id": "failed-to-join-brokerage",
+    "defaultMessage": "Failed To Join Brokerage Office"
+  },
+  {
+    "id": "already-joined-brokerage",
+    "defaultMessage": "Already Joined a Brokerage Office"
+  },
+  {
+    "id": "already-joined-brokerage-message",
+    "defaultMessage": "It appears you have already joined a brokerage office as an agent."
+  },
+  {
+    "id": "already-granted-permission",
+    "defaultMessage": "Already granted permission"
+  },
+  {
+    "id": "already-have-access",
+    "defaultMessage": "Already Have Access"
+  },
+  {
+    "id": "already-have-access-message",
+    "defaultMessage": "It appears you already have access to Control Panel. Please log in instead."
+  },
+  {
+    "id": "permission-granted",
+    "defaultMessage": "Permission Granted"
+  },
+  {
+    "id": "failed-to-grant-permission",
+    "defaultMessage": "Failed to Grant Permission"
+  },
+  {
+    "id": "get-agent-panel-access",
+    "defaultMessage": "Get Agent Panel Access"
+  },
+  {
+    "id": "get-agent-panel-access-message",
+    "defaultMessage": "We already have your information since you have a DealTap account. Click confirm to get agent panel access."
+  },
+  {
+    "id": "agent-identity-added",
+    "defaultMessage": "Agent Identity Added"
+  },
+  {
+    "id": "agent-identity-added-message",
+    "defaultMessage": "You can now access DealTap's agent panel."
+  },
+  {
+    "id": "account-created",
+    "defaultMessage": "Account Created"
+  },
+  {
+    "id": "account-created-message",
+    "defaultMessage": "Your account has been created."
+  },
+  {
+    "id": "failed-to-reject",
+    "defaultMessage": "Failed to reset password"
+  },
+  {
+    "id": "password-reset-success-title",
+    "defaultMessage": "Password has been reset"
+  },
+  {
+    "id": "password-reset-success-message",
+    "defaultMessage": "Please log in to continue."
+  },
+  {
+    "id": "reset-password",
+    "defaultMessage": "Reset Password"
+  }
+]

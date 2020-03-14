@@ -1,0 +1,14 @@
+[
+  {
+    "id": "cannot-update-brokerage",
+    "defaultMessage": "Cannot update brokerage"
+  },
+  {
+    "id": "brokerage-already-exists",
+    "defaultMessage": "Brokerage {name} already exists"
+  },
+  {
+    "id": "cannot-rename-brokerage",
+    "defaultMessage": "Some error occurred"
+  }
+]

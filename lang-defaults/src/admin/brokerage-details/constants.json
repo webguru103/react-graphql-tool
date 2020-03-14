@@ -1,0 +1,66 @@
+[
+  {
+    "id": "empty-bo-name",
+    "defaultMessage": "Please input the brokerage office name"
+  },
+  {
+    "id": "empty-field",
+    "defaultMessage": "Field cannot be empty"
+  },
+  {
+    "id": "invalid-phone-number",
+    "defaultMessage": "Invalid Phone Number"
+  },
+  {
+    "id": "bo-exists",
+    "defaultMessage": "Brokerage Office already exists"
+  },
+  {
+    "id": "email-exists",
+    "defaultMessage": "User with that email already exists"
+  },
+  {
+    "id": "bo-name-too-long",
+    "defaultMessage": "Sorry, brokerage office name must be less than 64 characters"
+  },
+  {
+    "id": "error-adding-bo",
+    "defaultMessage": "Sorry, there was an error adding your brokerage office!"
+  },
+  {
+    "id": "error-adding-admin",
+    "defaultMessage": "Sorry, there was an error adding your user!"
+  },
+  {
+    "id": "error-updating-bo",
+    "defaultMessage": "Sorry, there was an error updating your brokerage office!"
+  },
+  {
+    "id": "settings",
+    "defaultMessage": "Settings"
+  },
+  {
+    "id": "set-super",
+    "defaultMessage": "Set Super Admin"
+  },
+  {
+    "id": "new-bo",
+    "defaultMessage": "New Brokerage Office"
+  },
+  {
+    "id": "update-bo",
+    "defaultMessage": "Edit Brokerage Office"
+  },
+  {
+    "id": "create",
+    "defaultMessage": "Create"
+  },
+  {
+    "id": "submit",
+    "defaultMessage": "Submit"
+  },
+  {
+    "id": "next",
+    "defaultMessage": "Next"
+  }
+]

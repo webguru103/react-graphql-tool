@@ -1,0 +1,38 @@
+[
+  {
+    "id": "empty-group-name",
+    "defaultMessage": "Please input a group name"
+  },
+  {
+    "id": "empty-visibility",
+    "defaultMessage": "Please input a visibility selection"
+  },
+  {
+    "id": "group-name-not-unique",
+    "defaultMessage": "Group Name is not unique"
+  },
+  {
+    "id": "group-created-successfully",
+    "defaultMessage": "Form group created successfully"
+  },
+  {
+    "id": "request-error",
+    "defaultMessage": "Sorry, there was an error processing your request!"
+  },
+  {
+    "id": "cancel",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "confirm",
+    "defaultMessage": "Confirm"
+  },
+  {
+    "id": "settings",
+    "defaultMessage": "Settings"
+  },
+  {
+    "id": "form_group_updated",
+    "defaultMessage": "Succesfully Updated Form Group"
+  }
+]

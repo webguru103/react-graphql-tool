@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Invite New renders 1`] = `
+<div>
+  <form>
+    <div
+      class="MuiDialogTitle-root-1"
+    >
+      Invite New Admin
+    </div>
+    <div
+      class="MuiDialogContent-root-2"
+    >
+      <div
+        class="MuiFormControl-root-3 MuiFormControl-fullWidth-6"
+      >
+        <label
+          class="MuiFormLabel-root-14 MuiFormLabel-required-19 MuiInputLabel-root-7 MuiInputLabel-formControl-8 MuiInputLabel-animated-11"
+          data-shrink="false"
+          for="email"
+        >
+          Email
+          <span
+            class="MuiFormLabel-asterisk-20"
+          >
+             *
+          </span>
+        </label>
+        <div
+          class="MuiInputBase-root-34 MuiInput-root-21 MuiInputBase-fullWidth-43 MuiInput-fullWidth-28 MuiInputBase-formControl-35 MuiInput-formControl-22"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input-44 MuiInput-input-29"
+            id="email"
+            name="email"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+      <div>
+        <div
+          class="MuiFormControl-root-3 MuiFormControl-fullWidth-6"
+        >
+          <label
+            class="MuiFormLabel-root-14 MuiFormLabel-required-19 MuiInputLabel-root-7 MuiInputLabel-formControl-8 MuiInputLabel-animated-11"
+            data-shrink="false"
+            for="firstName"
+          >
+            First Name
+            <span
+              class="MuiFormLabel-asterisk-20"
+            >
+               *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root-34 MuiInput-root-21 MuiInputBase-fullWidth-43 MuiInput-fullWidth-28 MuiInputBase-formControl-35 MuiInput-formControl-22"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-44 MuiInput-input-29"
+              id="firstName"
+              name="firstName"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="MuiFormControl-root-3 MuiFormControl-fullWidth-6"
+        >
+          <label
+            class="MuiFormLabel-root-14 MuiFormLabel-required-19 MuiInputLabel-root-7 MuiInputLabel-formControl-8 MuiInputLabel-animated-11"
+            data-shrink="false"
+            for="lastName"
+          >
+            Last Name
+            <span
+              class="MuiFormLabel-asterisk-20"
+            >
+               *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root-34 MuiInput-root-21 MuiInputBase-fullWidth-43 MuiInput-fullWidth-28 MuiInputBase-formControl-35 MuiInput-formControl-22"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-44 MuiInput-input-29"
+              id="lastName"
+              name="lastName"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="css-10nd86i"
+        >
+          <div
+            class="css-vj8t7z"
+          >
+            <div
+              class="css-1hwfws3"
+            >
+              <div
+                class="css-1492t68"
+              >
+                To Which Brokerage Office?
+              </div>
+              <div
+                class="css-1g6gooi"
+              >
+                <div
+                  class=""
+                  style="display: inline-block;"
+                >
+                  <input
+                    aria-autocomplete="list"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    id="react-select-2-input"
+                    spellcheck="false"
+                    style="box-sizing: content-box; width: 2px; border: 0px; font-size: inherit; opacity: 1; outline: 0; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: inherit; font-family: -webkit-small-control; letter-spacing: normal; text-transform: none;"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="css-1wy0on6"
+            >
+              <span
+                class="css-d8oujb"
+              />
+              <div
+                aria-hidden="true"
+                class="css-1ep9fjw"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="css-19bqh2r"
+                  focusable="false"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  width="20"
+                >
+                  <path
+                    d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <input
+            name="brokerage"
+            type="hidden"
+            value=""
+          />
+        </div>
+        <p
+          class="MuiFormHelperText-root-51"
+        />
+      </div>
+      <fieldset
+        class="MuiFormControl-root-3"
+      >
+        <legend
+          class="MuiFormLabel-root-14"
+        >
+          Permission
+        </legend>
+        <div
+          aria-label="Permission"
+          class="MuiFormGroup-root-59"
+          role="radiogroup"
+        >
+          <label
+            class="MuiFormControlLabel-root-61"
+          >
+            <span
+              class="MuiButtonBase-root-80 MuiIconButton-root-74 MuiSwitchBase-root-70 MuiRadio-root-65 MuiRadio-colorSecondary-69 MuiSwitchBase-checked-71 MuiRadio-checked-66"
+            >
+              <span
+                class="MuiIconButton-label-79"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root-83"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                  />
+                </svg>
+                <input
+                  checked=""
+                  class="MuiSwitchBase-input-73"
+                  name="permission"
+                  type="radio"
+                  value="super-admin"
+                />
+              </span>
+              <span
+                class="MuiTouchRipple-root-92"
+              />
+            </span>
+            <span
+              class="MuiTypography-root-99 MuiTypography-body1-108 MuiFormControlLabel-label-64"
+            >
+              Super Admin
+            </span>
+          </label>
+        </div>
+      </fieldset>
+      <div
+        class="MuiFormControl-root-3"
+      >
+        <p
+          class="MuiFormHelperText-root-51"
+        />
+      </div>
+    </div>
+    <div
+      class="MuiDialogActions-root-125"
+    >
+      <button
+        class="MuiButtonBase-root-80 MuiButton-root-127 MuiButton-contained-138 MuiButton-raised-141 MuiDialogActions-action-126"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-128"
+        >
+          Cancel
+        </span>
+        <span
+          class="MuiTouchRipple-root-92"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root-80 MuiButton-root-127 MuiButton-contained-138 MuiButton-containedPrimary-139 MuiButton-raised-141 MuiButton-raisedPrimary-142 MuiDialogActions-action-126"
+        data-testid="submit-button"
+        tabindex="0"
+        type="submit"
+      >
+        <span
+          class="MuiButton-label-128"
+        >
+          Invite
+        </span>
+        <span
+          class="MuiTouchRipple-root-92"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

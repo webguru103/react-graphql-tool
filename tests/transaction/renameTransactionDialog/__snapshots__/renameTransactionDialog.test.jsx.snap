@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rename should render 1`] = `
+<WithStyles(DialogCreatorInjector)
+  actionButtonText={
+    <FormattedMessage
+      defaultMessage="Done"
+      id="rename-dialog-submit"
+      values={Object {}}
+    />
+  }
+  content={
+    <WithStyles(RenameTransactionC)
+      networkError=""
+    />
+  }
+  initialValues={
+    Object {
+      "name": "Transaction name",
+    }
+  }
+  onSubmit={[Function]}
+  title={
+    <React.Fragment>
+      <FormattedMessage
+        defaultMessage="Rename Item:"
+        id="rename-item-dialog-header"
+        values={Object {}}
+      />
+       Transaction name
+    </React.Fragment>
+  }
+  validate={[Function]}
+/>
+`;

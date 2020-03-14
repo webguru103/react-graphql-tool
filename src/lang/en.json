@@ -1,0 +1,12 @@
+{
+  "error-renaming-folder": "Sorry, error renaming folder!",
+  "add-new-name": "Please add a new name",
+  "rename-dialog-submit": "Done",
+  "rename-item-dialog-header": "Rename Item:",
+  "table-head-name": "Name",
+  "table-head-owner": "Owner",
+  "table-head-last-modified": "Last Modified",
+  "menu-rename": "Rename",
+  "menu-copy": "Copy",
+  "menu-delete": "Delete"
+}

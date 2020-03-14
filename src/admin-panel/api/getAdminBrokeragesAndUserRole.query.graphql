@@ -1,0 +1,15 @@
+query GetAdminBrokeragesAndUserRole($brokerageAclCondition: BrokerageAclCondition){
+  brokerages: allBrokerageAcls(condition: $brokerageAclCondition) {
+    nodes {
+      userId
+      brokerageByBrokerageId {
+        id
+        brokerageName
+        unit
+        streetNumber
+        streetName
+      }
+      roleCategory
+    }
+  }
+}

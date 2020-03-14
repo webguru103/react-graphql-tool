@@ -1,0 +1,7 @@
+{
+  "document": "Documento",
+  "fields": "Campos",
+  "history": "Historia",
+  "buttonlabel": "Comienza a Firmar",
+  "welcome": "Hola {name}, has tenias {unreadCount} mensajes en"
+}

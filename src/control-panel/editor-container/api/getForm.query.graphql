@@ -1,0 +1,139 @@
+query GetForm($condition: FormCondition, $textCondition: PageFieldTextCondition, $boolCondition: PageFieldBoolCondition, $dateCondition: PageFieldDateCondition, $signatureCondition: PageFieldSignatureCondition, $initialCondition: PageFieldInitialCondition, $lineCondition: PageFieldLineCondition) {
+  forms: allForms(condition: $condition) {
+    totalCount
+    nodes {
+      id
+      formName
+      pages: formPagesByFormId {
+        totalCount
+        nodes {
+          id
+          pageNumber
+          sourceURL
+          textFields: pageFieldTextsByFormPageId (condition: $textCondition) {
+            totalCount
+            nodes {
+              id
+              fieldName
+              deleted
+              dataReference
+              autocomplete
+              x
+              y
+              width
+              height
+              positionLock
+              createdAt
+              updatedAt
+              color
+              fontSize
+              alignment
+              padding
+              lineHeight
+              positionLock
+            }
+          }
+          boolFields: pageFieldBoolsByFormPageId (condition: $boolCondition) {
+            nodes {
+              id
+              fieldName
+              deleted
+              dataReference
+              x
+              y
+              width
+              height
+              positionLock
+              createdAt
+              updatedAt
+              color
+              positionLock
+            }
+          }
+          dateFields: pageFieldDatesByFormPageId (condition: $dateCondition) {
+            nodes {
+              id
+              fieldName
+              deleted
+              dataReference
+              x
+              y
+              width
+              height
+              dateFormat
+              positionLock
+              createdAt
+              updatedAt
+              color
+              fontSize
+              alignment
+              padding
+              positionLock
+            }
+          }
+          signatureFields: pageFieldSignaturesByFormPageId (condition: $signatureCondition) {
+            nodes {
+              id
+              fieldName
+              deleted
+              dataReference
+              x
+              y
+              width
+              height
+              positionLock
+              createdAt
+              updatedAt
+              color
+              positionLock
+            }
+          }
+          initialFields: pageFieldInitialsByFormPageId (condition: $initialCondition) {
+            nodes {
+              id
+              fieldName
+              deleted
+              dataReference
+              x
+              y
+              width
+              height
+              positionLock
+              createdAt
+              updatedAt
+              color
+              positionLock
+            }
+          }
+          lineFields: pageFieldLinesByFormPageId (condition: $lineCondition) {
+            nodes {
+              id
+              fieldName
+              x1
+              y1
+              x2
+              y2
+              positionLock
+              createdAt
+              updatedAt
+              color
+              strokeThickness
+              positionLock
+            }
+          }
+        }
+      }
+      formData: formDataByFormId{
+        nodes {
+          id
+          dataName: formDataName
+          fieldType
+          affectsSignature
+          minLen
+          maxLen
+          value
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+query GetBrokerages {
+  brokerages: allBrokerages (orderBy: ID_ASC){
+    totalCount
+    nodes {
+      id
+      brokerageName
+      phone
+      fax
+      createdAt
+      updatedAt
+      unit
+      streetName
+      streetNumber
+      postalCode
+      city
+      country
+    }
+  }
+}

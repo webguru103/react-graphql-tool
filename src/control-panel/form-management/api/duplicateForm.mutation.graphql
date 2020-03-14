@@ -1,0 +1,8 @@
+mutation DuplicateForm($id: Int!, $form: FormInput!, $formVersion: FormVersionInput) {
+  form: duplicateForm(id: $id, form: $form, formVersion: $formVersion) {
+    id
+    formName
+    formGroupId
+    formStatus
+  }
+}

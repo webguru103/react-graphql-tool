@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Group Settings Dialog renders 1`] = `
+<div>
+  <form>
+    <div
+      class="MuiDialogTitle-root-15 DialogCreatorInjector-dialogTitle-2"
+    >
+      <span>
+        Settings
+      </span>
+    </div>
+    <div
+      class="MuiDialogContent-root-16 DialogCreatorInjector-dialogContent-3"
+    >
+      <div>
+        <div
+          class="MuiFormControl-root-17 MuiFormControl-fullWidth-20"
+        >
+          <label
+            class="MuiFormLabel-root-28 MuiFormLabel-required-33 MuiInputLabel-root-21 DialogCreatorInjector-textFieldLabel-9 DialogCreatorInjector-label-10 MuiInputLabel-formControl-22 MuiInputLabel-animated-25"
+            data-shrink="false"
+            for="input"
+          >
+            Group Name
+            <span
+              class="MuiFormLabel-asterisk-34"
+            >
+               *
+            </span>
+          </label>
+          <div
+            class="MuiInputBase-root-48 MuiInput-root-35 DialogCreatorInjector-textFieldInputWrapper-6 MuiInputBase-fullWidth-57 MuiInput-fullWidth-42 MuiInputBase-formControl-49 MuiInput-formControl-36"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-58 MuiInput-input-43 DialogCreatorInjector-textFieldInput-7"
+              id="input"
+              name="groupName"
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="MuiFormControl-root-17"
+        >
+          <label
+            class="MuiFormLabel-root-28 DialogCreatorInjector-label-10 DialogCreatorInjector-textFieldLabel-9"
+          >
+            Visibility
+          </label>
+          <div
+            aria-label="visibility"
+            class="MuiFormGroup-root-65 DialogCreatorInjector-radioGroup-12"
+            role="radiogroup"
+          >
+            <label
+              class="MuiFormControlLabel-root-67"
+              data-testid="settings-form-group-visible-everyone"
+            >
+              <span
+                class="MuiButtonBase-root-86 MuiIconButton-root-80 MuiSwitchBase-root-76 MuiRadio-root-71 DialogCreatorInjector-radio-13 MuiRadio-colorSecondary-75"
+              >
+                <span
+                  class="MuiIconButton-label-85"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-89"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                    />
+                  </svg>
+                  <input
+                    class="MuiSwitchBase-input-79"
+                    name="visibility"
+                    type="radio"
+                    value="EVERYONE"
+                  />
+                </span>
+              </span>
+              <span
+                class="MuiTypography-root-98 MuiTypography-body1-107 MuiFormControlLabel-label-70"
+              >
+                Everyone
+              </span>
+            </label>
+            <label
+              class="MuiFormControlLabel-root-67"
+              data-testid="settings-form-group-visible-orea"
+            >
+              <span
+                class="MuiButtonBase-root-86 MuiIconButton-root-80 MuiSwitchBase-root-76 MuiRadio-root-71 DialogCreatorInjector-radio-13 MuiRadio-colorSecondary-75"
+              >
+                <span
+                  class="MuiIconButton-label-85"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-89"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                    />
+                  </svg>
+                  <input
+                    class="MuiSwitchBase-input-79"
+                    name="visibility"
+                    type="radio"
+                    value="OREA"
+                  />
+                </span>
+              </span>
+              <span
+                class="MuiTypography-root-98 MuiTypography-body1-107 MuiFormControlLabel-label-70"
+              >
+                Limit To OREA
+              </span>
+            </label>
+            <label
+              class="MuiFormControlLabel-root-67"
+              data-testid="settings-form-group-visible-no-one"
+            >
+              <span
+                class="MuiButtonBase-root-86 MuiIconButton-root-80 MuiSwitchBase-root-76 MuiRadio-root-71 DialogCreatorInjector-radio-13 MuiRadio-colorSecondary-75"
+              >
+                <span
+                  class="MuiIconButton-label-85"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root-89"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                    />
+                  </svg>
+                  <input
+                    class="MuiSwitchBase-input-79"
+                    name="visibility"
+                    type="radio"
+                    value="NO_ONE"
+                  />
+                </span>
+              </span>
+              <span
+                class="MuiTypography-root-98 MuiTypography-body1-107 MuiFormControlLabel-label-70"
+              >
+                No One
+              </span>
+            </label>
+          </div>
+          <p
+            class="MuiFormHelperText-root-124 MuiFormHelperText-error-125"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiDialogActions-root-132 DialogCreatorInjector-dialogActions-4"
+    >
+      <button
+        class="MuiButtonBase-root-86 MuiButton-root-134 MuiButton-contained-145 MuiButton-raised-148 MuiDialogActions-action-133 DialogCreatorInjector-dialogAction-5"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiButton-label-135"
+        >
+          <span>
+            Cancel
+          </span>
+        </span>
+        <span
+          class="MuiTouchRipple-root-160"
+        />
+      </button>
+      <button
+        class="MuiButtonBase-root-86 MuiButton-root-134 MuiButton-contained-145 MuiButton-containedPrimary-146 MuiButton-raised-148 MuiButton-raisedPrimary-149 MuiDialogActions-action-133 DialogCreatorInjector-dialogAction-5"
+        data-testid="submit-button"
+        tabindex="0"
+        type="submit"
+      >
+        <span
+          class="MuiButton-label-135"
+        >
+          <span>
+            Confirm
+          </span>
+        </span>
+        <span
+          class="MuiTouchRipple-root-160"
+        />
+      </button>
+    </div>
+  </form>
+</div>
+`;

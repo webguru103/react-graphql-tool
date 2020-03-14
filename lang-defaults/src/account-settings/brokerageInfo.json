@@ -1,0 +1,18 @@
+[
+  {
+    "id": "bo-name",
+    "defaultMessage": "Office"
+  },
+  {
+    "id": "bo-addr",
+    "defaultMessage": "Address"
+  },
+  {
+    "id": "bo-phone",
+    "defaultMessage": "Phone"
+  },
+  {
+    "id": "bo-fax",
+    "defaultMessage": "Fax"
+  }
+]

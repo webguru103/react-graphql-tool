@@ -1,0 +1,7 @@
+mutation AddDocument($transactionId: ID!, $revisionId: ID!) {
+  addDocument: createDocument(transactionId: $transactionId, revisionId: $revisionId) {
+    id
+    name
+    updatedAt
+  }
+}

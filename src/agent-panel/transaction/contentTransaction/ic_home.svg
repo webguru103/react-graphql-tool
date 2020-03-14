@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs></defs>
+    <g id="ic/home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic_home">
+            <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+            <path d="M14,19.5 L14,13.98425 C14,13.71675 13.7522857,13.5 13.4465714,13.5 L10.5534286,13.5 C10.2477143,13.5 10,13.71675 10,13.98425 L10,19.5 L5.42857143,19.5 L5.42857143,9.602 L12,4.5 L18.5714286,9.602 L18.5714286,19.5 L14,19.5 Z" id="Combined-Shape" fill-opacity="0.1" fill="#31303B"></path>
+            <polygon id="Stroke-19" stroke="#31303B" stroke-linecap="round" stroke-linejoin="round" points="12 4.5 5.5 9.602 5.5 19.5 18.5 19.5 18.5 9.602"></polygon>
+            <polyline id="Stroke-17" stroke="#31303B" stroke-linecap="round" stroke-linejoin="round" points="4 10.75 12 4.5 20 10.75"></polyline>
+            <path d="M14,19.5 L10,19.5 L10,13.98425 C10,13.71675 10.2477143,13.5 10.5534286,13.5 L13.4465714,13.5 C13.7522857,13.5 14,13.71675 14,13.98425 L14,19.5 L14,19.5 Z" id="Stroke-21" stroke="#31303B" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polygon id="Stroke-23" stroke="#31303B" stroke-linecap="round" stroke-linejoin="round" points="17.5 5 15 5 15 6.76481057 17.5 8.75"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,6 @@
+[
+  {
+    "id": "remove-fields-confirmation",
+    "defaultMessage": "Are you sure you want to delete {numFields} fields at once?"
+  }
+]

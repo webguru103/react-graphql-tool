@@ -1,0 +1,8 @@
+query GetFormGroups($condition: FormGroupCondition) {
+  formGroups: allFormGroups(condition: $condition) {
+  nodes {
+    id
+    formGroupName
+    }
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cannot-reach-title",
+    "defaultMessage": "We couldn't reach OREA"
+  },
+  {
+    "id": "make-request-msg",
+    "defaultMessage": "In order to continue,\n    we need to verify your identity with OREA.\n    Please click the button below to verify\n    your identity."
+  },
+  {
+    "id": "first-login-msg-accent",
+    "defaultMessage": "In order to use OREA forms,"
+  },
+  {
+    "id": "first-login-msg",
+    "defaultMessage": "you need to verify your identity with OREA.\n    Please click the button below to verify\n    your identity."
+  },
+  {
+    "id": "make-request-title",
+    "defaultMessage": "Identity verification"
+  },
+  {
+    "id": "cannot-reach-msg",
+    "defaultMessage": "Sorry, but we were not able to reach\n    OREA at this moment. You can go back and\n    try again, or verify later in your account settings."
+  },
+  {
+    "id": "do-it-later",
+    "defaultMessage": "Do It Later"
+  },
+  {
+    "id": "try-again",
+    "defaultMessage": "Try Again"
+  },
+  {
+    "id": "do-it-later-msg",
+    "defaultMessage": "You can validate with OREA anytime in the Account Settings page."
+  },
+  {
+    "id": "ok-button",
+    "defaultMessage": "OK"
+  },
+  {
+    "id": "cancel-button",
+    "defaultMessage": "Cancel"
+  },
+  {
+    "id": "do-it-later-button",
+    "defaultMessage": "I'll do it later."
+  },
+  {
+    "id": "go-to-orea",
+    "defaultMessage": "Go to OREA validation page"
+  },
+  {
+    "id": "ver-failure-msg",
+    "defaultMessage": "Sorry, but we were not able to verify your identity with OREA. Please check your information and try again."
+  },
+  {
+    "id": "ver-failure-title",
+    "defaultMessage": "Verification failed"
+  },
+  {
+    "id": "ver-sucess-msg",
+    "defaultMessage": "Your identity has been successfully verified through OREA."
+  },
+  {
+    "id": "ver-sucess-title",
+    "defaultMessage": "OREA verificiation successful"
+  },
+  {
+    "id": "done-button",
+    "defaultMessage": "Done"
+  }
+]

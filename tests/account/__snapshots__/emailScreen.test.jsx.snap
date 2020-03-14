@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Email screen renders 1`] = `
+<div>
+  <div
+    style="opacity: 1; will-change: opacity; webkit-transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <div
+      class="EmailScreenC-screenContainer-1"
+    >
+      <p
+        class="EmailScreenC-screenTitle-2"
+      >
+        Create an agent account
+      </p>
+      <div
+        class="EmailScreenC-emailInput-3"
+      >
+        <div
+          class="MuiFormControl-root-6 MuiFormControl-marginNormal-7 MuiFormControl-fullWidth-9 EmailScreenC-emailInput-3"
+        >
+          <label
+            class="MuiFormLabel-root-17 MuiFormLabel-focused-18 MuiInputLabel-root-10 MuiInputLabel-formControl-11 MuiInputLabel-animated-14 MuiInputLabel-shrink-13"
+            data-shrink="true"
+            for="Email"
+          >
+            Email
+          </label>
+          <div
+            class="MuiInputBase-root-37 MuiInput-root-24 MuiInput-underline-28 MuiInputBase-fullWidth-46 MuiInput-fullWidth-31 MuiInputBase-focused-39 MuiInput-focused-26 MuiInputBase-formControl-38 MuiInput-formControl-25"
+          >
+            <input
+              aria-invalid="false"
+              class="MuiInputBase-input-47 MuiInput-input-32"
+              id="Email"
+              type="text"
+              value=""
+            />
+          </div>
+          
+        </div>
+      </div>
+      <div
+        class="EmailScreenC-controlButtons-5"
+      >
+        <button
+          class="MuiButtonBase-root-84 MuiButton-root-58 MuiButton-contained-69 MuiButton-containedSecondary-71 ButtonC-secondary-56 MuiButton-raised-72 MuiButton-raisedSecondary-74 ButtonC-button-54 EmailScreenC-controlButton-4"
+          data-testid=""
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-59"
+          >
+            Back
+          </span>
+        </button>
+        <button
+          class="MuiButtonBase-root-84 MuiButtonBase-disabled-85 MuiButton-root-58 MuiButton-contained-69 MuiButton-containedPrimary-70 ButtonC-primary-55 MuiButton-raised-72 MuiButton-raisedPrimary-73 MuiButton-disabled-78 ButtonC-disabled-57 ButtonC-button-54 EmailScreenC-controlButton-4"
+          data-testid="button-next"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          <span
+            class="MuiButton-label-59"
+          >
+            Next
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

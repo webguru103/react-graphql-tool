@@ -1,0 +1,27 @@
+query GetAdminUsersForAdmin($brokerageCondition: BrokerageAclCondition, $adminCondition: BrokerageAclCondition) {
+  admins: allBrokerageAcls(condition: $brokerageCondition) {
+    nodes {
+      id
+      brokerageByBrokerageId {
+        brokerageAclsByBrokerageId(condition: $adminCondition) {
+          totalCount
+          nodes {
+            userId
+            userByUserId {
+              lastName
+              firstName
+              email
+              phone
+              createdAt
+              loggedInAt
+            }
+            brokerageByBrokerageId {
+              id
+              brokerageName
+            }
+          }
+        }
+      }
+    }
+  }
+}

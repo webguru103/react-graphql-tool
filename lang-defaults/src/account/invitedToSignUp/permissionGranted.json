@@ -1,0 +1,6 @@
+[
+  {
+    "id": "permission-granted-message",
+    "defaultMessage": "You have now been granted {roleName} role of {brokerageName}. Please log in instead."
+  }
+]

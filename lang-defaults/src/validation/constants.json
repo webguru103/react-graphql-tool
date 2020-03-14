@@ -1,0 +1,10 @@
+[
+  {
+    "id": "empty-form-name",
+    "defaultMessage": "Please input the form name"
+  },
+  {
+    "id": "form-name-too-long",
+    "defaultMessage": "Sorry, name must be less than 64 characters"
+  }
+]

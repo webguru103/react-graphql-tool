@@ -1,0 +1,10 @@
+[
+  {
+    "id": "success-removed-access",
+    "defaultMessage": "Admin {firstName} {lastName} has been removed from this brokerage office."
+  },
+  {
+    "id": "success-added-access",
+    "defaultMessage": "Admin access to {brokerageName} granted to {firstName} {lastName}."
+  }
+]

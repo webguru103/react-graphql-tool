@@ -1,0 +1,30 @@
+[
+  {
+    "id": "disclaimer",
+    "defaultMessage": "By clicking Confirm, I agree that have read, understood\n      and agreed to {link1} and the {link2}. I hereby acknowledge and agree\n      that my electronic signature and initials shall have the same force and\n      effect as my written signature or initial."
+  },
+  {
+    "id": "full-name-required",
+    "defaultMessage": "Please provide full name"
+  },
+  {
+    "id": "initials-required",
+    "defaultMessage": "Please provide initials"
+  },
+  {
+    "id": "draw-signature",
+    "defaultMessage": "Please draw your signature"
+  },
+  {
+    "id": "draw-initials",
+    "defaultMessage": "Please draw your initials"
+  },
+  {
+    "id": "full-name-too-long",
+    "defaultMessage": "Name is too long"
+  },
+  {
+    "id": "initials-too-long",
+    "defaultMessage": "Initials too long"
+  }
+]

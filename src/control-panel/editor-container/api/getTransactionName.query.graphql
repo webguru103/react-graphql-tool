@@ -1,0 +1,6 @@
+query GetTransactionName($id: ID!) {
+  transaction: transaction(id: $id) {
+    id
+    name
+  }
+}

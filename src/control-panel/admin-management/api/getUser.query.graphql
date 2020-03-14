@@ -1,0 +1,20 @@
+query GetUser($condition: UserCondition) {
+  user: allUsers(condition: $condition) {
+    nodes {
+      id
+      email
+      firstName
+      lastName
+      phone
+      oreaVerified
+      emailVerified
+      unit
+      streetNumber,
+      streetName,
+      city,
+      province,
+      postalCode,
+      country
+    }
+  }
+}

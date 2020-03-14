@@ -1,0 +1,26 @@
+query GetUser($userCondition: UserCondition, $inviteCondition: InviteCondition, $invitesOrderBy: [InvitesOrderBy!], $systemAclCondition: SystemAclCondition) {
+  user: allUsers(condition: $userCondition) {
+    nodes {
+      id
+      email
+      firstName
+      lastName
+      loggedInAt
+      invitesByUserId (condition: $inviteCondition, orderBy: $invitesOrderBy) {
+        nodes {
+          createdAt
+          userByRequestedById {
+            id
+            firstName
+            lastName
+          }
+        }
+      }
+      systemAclsByUserId(condition: $systemAclCondition) {
+        nodes {
+          id
+        }
+      }
+    }
+  }
+}
